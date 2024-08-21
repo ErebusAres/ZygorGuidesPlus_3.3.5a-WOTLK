@@ -206,6 +206,49 @@ ZygorTalentAdvisor:RegisterBuild("DEATHKNIGHT","Zygor Unholy Raid DPS (0/17/54)"
 	Minor Glyph of Pestilence
 ]])
 
+ZygorTalentAdvisor:RegisterBuild("DEATHKNIGHT","WM Unholy DPS (0/17/54)",[[
+	// https://forum.warmane.com/showthread.php?t=349829
+	3 Virulence
+	2 Vicious Strikes
+	3 Ravenous Dead
+	2 Epidemic
+	5 Necrosis
+	2 Night of the Dead
+	3 Blood-Caked Blade
+	5 Impurity
+	1 Master of Ghouls
+	3 Outbreak
+	2 Dirge
+	1 Unholy Blight
+	5 Desolation
+	3 Crypt Fever
+	1 Bone Shield
+	1 Scourge Strike
+	3 Ebon Plaguebringer
+	5 Rage of Rivendare
+	1 Summon Gargoyle
+	3 Wandering Plague
+
+	// Frost 64-66
+	3 Improved Icy Touch
+	// 67-68
+	2 Runic Power Mastery
+	// 69-73
+	5 Black Ice
+	// 74-78
+	5 Icy Talons
+	// 79-80
+	2 Endless Winter
+
+]],[[
+	Major Glyph of the Ghoul
+	Major Glyph of Dark Death
+	Major Glyph of Icy Touch
+	Minor Glyph of Horn of Winter
+	Minor Glyph of Pestilence
+	Minor Glyph of Raise Dead
+]])
+
 ZygorTalentAdvisor:RegisterBuild("HUNTER","Zygor Leveling (53/18/0)",[[
 	5/5 Improved Aspect of the Hawk
 	3/3 Thick Hide
@@ -1018,6 +1061,53 @@ ZygorTalentAdvisor:RegisterBuild("PRIEST","Zygor Shadow DPS (13 / 0 / 58)",[[
 	3/3 Meditation
 ]],[[
 	Major Glyph of Shadow Word: Pain
+	Major Glyph of Shadow
+	Major Glyph of Mind Flay
+	Minor Glyph of Fortitude
+	Minor Glyph of Levitate
+	Minor Glyph of Shadowfiend
+]])
+
+ZygorTalentAdvisor:RegisterBuild("PRIEST","WT Shadow Raid DPS (14 / 0 / 57)",[[
+// https://www.warcrafttavern.com/wotlk/guides/pve-shadow-priest-talents-builds-glyphs/
+	5 Darkness
+	5 Twin Disciplines
+	3 Improved Inner Fire
+	2 Improved Power Word: Fortitude
+	3 Meditation
+	3 Shadow Focus
+	2 Improved Shadow Word: Pain
+	4/5 Improved Mind Blast
+	1 Mind Flay
+	2 Shadow Reach
+	3 Shadow Weaving
+	1 Vampiric Embrace
+	2 Focused Mind
+	2 Veiled Shadows
+	3 Improved Devouring Plague
+	2 Mind Melt
+	1 Shadow Form
+	5 Shadow Power
+	2 Improved Shadowform
+	// 61-63
+	3 Misery
+	// 64
+	1 Vampiric Touch
+	// 65-67
+	3 Pain and Suffering
+	// 68-72
+	5 Twisted Faith
+	// 73-74
+	1 Dispersion
+	1 Improved Mind Blast // (Now 5/5)
+	// 75-77
+	3 Spirit Tap
+	// 78-79
+	2 Improved Spirit Tap
+	// 80
+	1 Inner Focus
+]],[[
+	Major Glyph of Dispersion
 	Major Glyph of Shadow
 	Major Glyph of Mind Flay
 	Minor Glyph of Fortitude
