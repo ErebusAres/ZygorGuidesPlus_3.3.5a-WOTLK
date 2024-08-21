@@ -3,7 +3,7 @@ All works credited to the original creator of ZygorGuides with minor tweaks to t
 
 Changelog:
 + Step 54 (lv 68-70) - Talk to Anchorite Karja accept "Assisting the Consortium" quest.
-~ Many steps moved around to Flow correctly and to get the "breadcrumb" quests required to get Toshley's Quests.
++ Many steps moved around to Flow correctly and to get the "breadcrumb" quests required to get Toshley's Quests.
       + Step 115 (Lv 66-68) - Vindicator Vuuleen's 3 quest chain...
         + Steps requiring you to turn in the new quest(s).
       + Steps requiring you to defeat Bladespire Clan ogres.
