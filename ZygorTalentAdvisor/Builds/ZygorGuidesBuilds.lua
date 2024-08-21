@@ -1845,6 +1845,41 @@ ZygorTalentAdvisor:RegisterBuild("WARLOCK","Zygor Demonology DPS (0 / 56 / 15)",
 	Minor Glyph of Souls
 ]])
 
+ZygorTalentAdvisor:RegisterBuild("WARLOCK","WT Affliction DPS Raid (55 / 0 / 16)",[[
+	5/5 Improved Corruption
+	2/2 Improved Curse of Agony
+	2/2 Soul Siphon
+	1/3 Suppression
+	3/3 Fel Concentration
+	2 Suppression //(Now 3/3)
+	3/3 Empowered Corruption
+	2/2 Nightfall
+	5/5 Shadow Embrace
+	1/1 Siphon Life
+	5/5 Shadow Mastery
+	5/5 Contagion
+	3/3 Eradication
+	3/3 Malediction
+	1/1 Unstable Affliction
+	1/1 Pandemic
+	1/3 Death's Embrace
+	5/5 Everlasting Affliction
+	1/1 Haunt
+	2 Death's Embrace //(Now 3/3)
+	2/2 Improved Felhunter
+	5/5 Improved Shadow Bolt
+	5/5 Bane
+	5/5 Ruin
+	1/2 Intensity
+]],[[
+	Major Glyph of Haunt
+	Major Glyph of Life Tap
+	Major Glyph of Quick Decay
+	Minor Glyph of Souls
+	Minor Glyph of Subjugate Demon
+	Minor Glyph of Drain Soul
+]])
+
 ZygorTalentAdvisor:RegisterBuild("WARRIOR","Zygor Fury Leveling (18 / 53 / 0)",[[
 	5/5 Cruelty
 	3/3 Armored to the Teeth
