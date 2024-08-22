@@ -11,3 +11,4 @@ Changelog:
   - Steps requiring you to turn in and accept the new Breadcrumb quest chain.
 + Step 22 (Lv 64-66) - Talk to Kirrik the Awakened accept "Speak with Rilak the Redeemed" quest to be able to do step 25.
 + Step 26 (Lv 62-64) - Talk to Ysiel Windsinger before talking to Warden Hamoot, accept "Warden Hamoot" quest in order to progress to step 27 "A Warm Welcome" quest.
++ Added notes to the Fahssn point of getting Reputation with the Sporeggar to Friendly.
