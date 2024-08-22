@@ -13126,6 +13126,8 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Levels (62-64
 	step //85
 		goto 19.1,63.9
 		.talk Fahssn##17923
+		.' You must be Friendly with Sporeggar to accept these quests.
+		.' Gain reputation by killing Starving Fungal Giants and Starving Bog Lords in the nearby area.
 		..accept The Sporelings' Plight##9739
 		..accept Natural Enemies##9743
 		..turnin Natural Enemies##9743
