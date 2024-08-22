@@ -934,6 +934,52 @@ ZygorTalentAdvisor:RegisterBuild("MAGE","WT Fire Raid DPS (18 / 53 / 0)",[[
 	Minor Glyph of Fire Ward
 ]])
 
+ZygorTalentAdvisor:RegisterBuild("MAGE","WT Frost Raid DPS (18 / 0 / 53)",[[
+	// 10-27 [18 points]
+	5/5 Improved Frostbolt
+	3/3 Ice Shards
+	2/3 Precision
+	1/1 Icy Veins
+	3/3 Piercing Ice
+	1 Precision //(Now 3/3)
+	3/3 Shatter
+	// 28-60
+	2/3 Frost Channeling
+	1/1 Cold Snap
+	2/2 Arctic Reach
+	1 Frost Channeling //(Now 3/3)
+	3/3 Ice Floes
+	3/3 Winter's Chill
+	1/1 Ice Barrier
+	5/5 Arctic Winds
+	2/2 Empowered Frostbolt
+	2/2 Fingers of Frost
+	1/1 Summon Water Elemental
+	3/3 Brain Freeze
+	1/3 Enduring Winter
+	5/5 Chilled to the Bone
+	1/1 Deep Freeze
+
+	// 61-63
+	2 Enduring Winter //(Now 3/3)
+
+	// Arcane Tree 64-80
+	2/2 Arcane Subtlety
+	3/3 Arcane Focus
+	5/5 Arcane Concentration
+	3/3 Spell Impact
+	1/3 Student of the Mind
+	1/1 Focus Magic
+	3/3 Torment the Weak
+]],[[
+	Major Glyph of Water Elemental
+	Major Glyph of Ice Barrier
+	Major Glyph of Frostbolt
+	Minor Glyph of Arcane Intellect
+	Minor Glyph of Slow Fall
+	Minor Glyph of Frost Armor
+]])
+
 ZygorTalentAdvisor:RegisterBuild("PRIEST","Zygor Leveling Build (13 / 0 / 58)",[[
 	3/3 Spirit Tap
 	2/2 Improved Spirit Tap
