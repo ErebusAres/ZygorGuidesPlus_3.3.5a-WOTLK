@@ -879,6 +879,61 @@ ZygorTalentAdvisor:RegisterBuild("MAGE","Zygor Arcane DPS (57 / 3 / 11)",[[
 	Minor Glyph of Penguin
 ]])
 
+ZygorTalentAdvisor:RegisterBuild("MAGE","WT Fire Raid DPS (18 / 53 / 0)",[[
+	// 10-14 [5]
+	5/5 Improved Fireball
+	// 15-19 [10]
+	5/5 Ignite
+	// 20-26 [16]
+	1/1 Pyroblast
+	2/2 Burning Soul
+	3/3 World in Flames
+	// 27-29 [21]
+	3/3 Improved Scorch
+	2/3 Master of Elements
+	// 30-34 [25]
+	3/3 Critical Mass
+	1 Master of Elements //(Now 3/3)
+	// 35-37 [28]
+	3/3 Playing with Fire
+	// 38-42 [33]
+	5/5 Fire Power
+	// 43 [34]
+	1/1 Combustion
+	// 44-46 [37]
+	3/3 Pyromaniac
+	// 47-48 [39]
+	2/2 Molten Fury
+	// 49-51 [42]
+	3/3 Empowered Fire
+	// 52-54 [45]
+	3/3 Hot Streak
+	// 55-59 [50]
+	5/5 Burnout
+	// 60 [51]
+	1/1 Living Bomb
+	// 61-62 [53]
+	2/2 Flame Throwing
+
+	// Arcane Tree 63-80
+	3/3 Arcane Focus
+	2/2 Arcane Subtlety
+	2/2 Magic Absorption
+	3/5 Arcane Concentration
+	3/3 Spell Impact
+	1/1 Focus Magic
+	1/3 Student of the Mind
+	3/3 Torment the Weak
+
+]],[[
+	Major Glyph of Fireball
+	Major Glyph of Molten Armor
+	Major Glyph of Living Bomb
+	Minor Glyph of Arcane Intellect
+	Minor Glyph of Slow Fall
+	Minor Glyph of Fire Ward
+]])
+
 ZygorTalentAdvisor:RegisterBuild("PRIEST","Zygor Leveling Build (13 / 0 / 58)",[[
 	3/3 Spirit Tap
 	2/2 Improved Spirit Tap
