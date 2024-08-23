@@ -15353,7 +15353,9 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Levels (68-70
 		..accept Attack on Manaforge Coruu##10246
 	step //106
 		goto 45.9,79.4
+		.' 3 Researchers inside, you'll have to wait for them to respawn.
 		.kill 5 Sunfury Researcher|q 10246/1
+		.' Arcanists are outside all over.
 		.kill 8 Sunfury Arcanist|q 10246/2
 	step //107
 		'Go outside to 57.7,85.2|goto 57.7,85.2
@@ -15363,13 +15365,12 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Levels (68-70
 		..accept Indispensable Tools##10331
 	step //108
 		goto 57.5,86.3
-		.talk Custodian Dieworth##19488
-		..accept Malevolent Remnants##10184
 		.' Use Archmage Vargoth's Staff|use Archmage Vargoth's Staff##28455
 		.talk Image of Archmage Vargoth##19644
 		..turnin Curse of the Violet Tower##10174
 		..accept The Sigil of Krasus##10188
 		.talk Custodian Dieworth##19488
+		..accept Malevolent Remnants##10184
 		..accept A Fate Worse Than Death##10185
 		.talk Lieutenant-Sorcerer Morran##19489
 		..accept The Unending Invasion##10343
