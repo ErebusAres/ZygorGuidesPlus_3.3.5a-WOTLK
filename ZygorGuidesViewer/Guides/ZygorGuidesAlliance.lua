@@ -15328,8 +15328,6 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Levels (68-70
 		.talk Anchorite Karja##19467
 		..turnin Shutting Down Manaforge B'naar##10299
 		..accept Shutting Down Manaforge Coruu##10321
-		.talk Exarch Orelis##19466
-		..accept Attack on Manaforge Coruu##10246
 	step //102
 		goto 28.2,79.4
 		.kill Warp-Raider Nesaad##19641|q 10205/1
@@ -15339,11 +15337,7 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Levels (68-70
 		..turnin Warp-Raider Nesaad##10205
 		..accept Request for Assistance##10266
 	step //104
-		goto 45.9,79.4
-		.kill 8 Sunfury Arcanist|q 10246/2
-	step //105
 		'Go inside Manaforge Coruu to 49,81.5|goto 49,81.5
-		.kill 5 Sunfury Researcher|q 10246/1
 		.' Kill Overseer Seylanna
 		..collect Coruu Access Crystal##29396|q 10321|sticky
 		.' Click the Coruu Control Console
@@ -15351,13 +15345,23 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Levels (68-70
 		.' Kill the technicians as they come to try to save the Manaforge
 		..'Only takes 2 minutes
 		.' Shut Down Manaforge Coruu|goal Manaforge Coruu Shut Down |q 10321/1
+	step //105
+		goto 32.1,64.2
+		.talk Anchorite Karja##19467
+		..turnin Shutting Down Manaforge Coruu##10321
+		.talk Exarch Orelis##19466
+		..accept Attack on Manaforge Coruu##10246
 	step //106
+		goto 45.9,79.4
+		.kill 5 Sunfury Researcher|q 10246/1
+		.kill 8 Sunfury Arcanist|q 10246/2
+	step //107
 		'Go outside to 57.7,85.2|goto 57.7,85.2
 		.talk Thadell##20464
 		..accept Needs More Cowbell##10334
 		.talk Apprentice Andrethan##20463
 		..accept Indispensable Tools##10331
-	step //107
+	step //108
 		goto 57.5,86.3
 		.talk Custodian Dieworth##19488
 		..accept Malevolent Remnants##10184
@@ -15372,41 +15376,41 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Levels (68-70
 //	step //108
 //		.' Kill 20 Severed Spirits as you quest around this area |q 10184/1
 //		.' Skip to the next step of the guide
-	step //108
+	step //109
 		goto 59.1,78.8
 		.talk Bessy##20415
 		..turnin Needs More Cowbell##10334
 		..accept When the Cows Come Home##10337
 		.' Escort Bessy to Thadell|goal Escort Bessy on her way home.|q 10337/1
-	step //109
+	step //110
 		'At 57.7,85.2|goto 57.7,85.2
 		.talk Thadell##20464
 		..turnin When the Cows Come Home##10337
-	step //110
+	step //111
 		goto 58.4,88.3
 		.from Abjurist Belmara##19546
 		.get Belmara's Tome|n
 		.' Click Belmara's Tome|use Belmara's Tome##29234
 		..accept Abjurist Belmara##10305
-	step //111
+	step //112
 		goto 59.6,87.7
 		.from Cohlien Frostweaver##19545
 		.get Cohlien's Cap|n
 		.' Click Cohlien's Cap|use Cohlien's Cap##29236
 		..accept Cohlien Frostweaver##10307
-	step //112
+	step //113
 		goto 60.4,88
 		.from Battle-Mage Dathric##19543
 		.get Dathric's Blade|n
 		.' Click Dathric's Blade|use Dathric's Blade##29233
 		..accept Battle-Mage Dathric##10182
-	step //113
+	step //114
 		goto 59.9,85.6
 		.from Conjurer Luminrath##19544
 		.get Luminrath's Mantle|n
 		.' Click Luminrath's Mantle|use Luminrath's Mantle##29235
 		..accept Conjurer Luminrath##10306
-	step //114
+	step //115
 		goto 61,85
 		.' Kill Kirin'Var Apprentices
 		.get Smithing Hammer|q 10331/1
