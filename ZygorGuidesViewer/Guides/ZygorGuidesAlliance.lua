@@ -15786,6 +15786,7 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Levels (68-70
 		goto 44.7,14.6
 		.talk Tashar##20913
 		..turnin All Clear!##10436
+		.' Wait a few seconds for him to return to where he was once standing.
 		..accept Success!##10440
 	step //191
 		goto 43.5,35.1
