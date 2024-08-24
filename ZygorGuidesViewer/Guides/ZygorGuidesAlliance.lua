@@ -12239,6 +12239,12 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Outland (60-6
 		.talk Marshal Isildor##19308
 		..turnin Journey to Honor Hold##10140
 		..accept Force Commander Danath##10254
+	step //pre 8
+		goto 54.3,62.6
+		.' Buy a Flying mount.
+		.talk Grunda Bronzewing##35101
+		.' Train your Riding Skill. |achieve 890
+		.talk Hargen Bronzewing##35100 
 	step //8
 		home Honor Hold
 	step //9
@@ -12298,15 +12304,15 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Outland (60-6
 		.kill the demons here|n
 		.collect 4 Demonic Rune Stone##28513|q 10144
 	step //20
-		goto 72.7,59
-		.' Stand inside the portal and click it to destroy it|goal Disrupt Portal Kaalez|q 10144/2
+		goto 71.4,55.2
+		.' Stand inside the portal and click it to destroy it|goal Disrupt Portal Grimh|q 10144/1
 	step //21
 		goto 71.7,56.4
 		.kill the demons here|n
 		.collect 4 Demonic Rune Stone##28513|q 10144
 	step //22
-		goto 71.4,55.2
-		.' Stand inside the portal and click it to destroy it|goal Disrupt Portal Grimh|q 10144/1
+		goto 72.7,59
+		.' Stand inside the portal and click it to destroy it|goal Disrupt Portal Kaalez|q 10144/2 |tip If you're unable to click to destroy, relog.
 	step //23
 		goto 71.3,62.8
 		.talk Forward Commander Kingston##19310
