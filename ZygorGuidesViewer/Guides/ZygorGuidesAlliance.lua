@@ -12852,8 +12852,6 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Levels (62-64
 		'Go northwest to Zangarmarsh|goto Zangarmarsh|noway|c
 	step //25
 		goto Zangarmarsh,80.4,64.2
-		.talk Lauranna Thar'well##17909
-		..accept Plants of Zangarmarsh##9802
 		.talk Ikeyen##17956
 		..accept The Umbrafen Tribe##9747
 	step //26
@@ -12877,72 +12875,81 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Levels (62-64
 		.kill Boglash and Fen Striders|n|tip It's easier if you just run around in the water all around the east part of Zangarmarsh.
 		.collect 6 Fertile Spores##24449|q 9806/1|future
 		.kill all mobs in this area|n
-		.get 10 Unidentified Plant Parts|q 9802/1
+		.collect 10 Unidentified Plant Parts|q 9802/1|future
 	step //30
-		goto 80.4,64.2
-		.talk Lauranna Thar'well##17909
-		..turnin Plants of Zangarmarsh##9802
-	step //31
 		goto 78.5,63.1
 		.talk Lethyn Moonfire##17834
 		..turnin The Dying Balance##9895
-	step //32
+	step //31
 		goto 85.3,90.9
 		.kill Kataru|q 9747/1|tip In the big building, all the way at the top.
-	step //33
+	step //32
 		goto 84.8,84.4
 		.kill 6 Umbrafen Oracle|q 9747/2
 		.kill 8 Umbrafen Seer|q 9747/3
 		.kill 6 Umbrafen Witchdoctor|q 9747/4
-	step //34
+	step //33
 		goto 83.4,85.5
 		.talk Kayra Longmane##17969
 		..accept Escape from Umbrafen##9752
 		..'Escort Kayra Longmane|goal Escort Kayra Longmane to safety|q 9752/1
-	step //35
+	step //34
 		goto 80.4,64.2
 		.talk Ikeyen##17956
 		..turnin The Umbrafen Tribe##9747
 		..accept A Damp, Dark Place##9788
 		.talk Lauranna Thar'well##17909
 		..accept Saving the Sporeloks##10096
-	step //36
+	step //35
 		goto 80.4,64.7
 		.talk Windcaller Blackhoof##18070
 		..accept Safeguarding the Watchers##9894
-	step //37
+	step //36
 		goto 78.4,62
 		.talk Ysiel Windsinger##17841
 		..turnin Escape from Umbrafen##9752
-	step //38
+	step //37
 		goto 74.7,91.6|n
 		.' The path to 'Ikeyen's Belongings' starts here|goto Zangarmarsh,74.7,91.6,0.3|noway|c
-	step //39
+	step //38
 		'Go southwest inside the cave to 70.5,97.9|goto 70.5,97.9
+		.' Head right as you enter the cave.
+		.' Defeat the creatures in the cave as you go.
+		.kill 10 Marsh Lurker|q 10096/2|n
+		.kill 10 Marsh Dredger|q 10096/1|n
 		.' Click Ikeyen's Belongings|tip A little tan metal chest sitting on a beg flat rock.
 		.get Ikeyen's Belongings|q 9788/1
-	step //40
+	step //39
 		'Go northeast inside the cave to 72.5,94.0|goto 72.5,94.0
 		.kill Lord Klaq|q 9894/1|tip On the bottom level of the cave, in the small round room all the way in the back.
-	step //41
+	step //40
 		goto 75.7,90.2
+		.' There should be exactly enough if you do a full loop around to the boss and leave back out to the left.
 		.kill 10 Marsh Lurker|q 10096/2
 		.kill 10 Marsh Dredger|q 10096/1
-	step //42
+	step //41
 		goto 70.9,82.1
 		.' Stand here to Investigate Umbrafen Lake|goal Umbrafen Lake Investigated|q 9716/1
 		.kill nagas|n
 		.get 30 Naga Claws|q 9728/1
-	step //43
+	step //42
 		goto 80.4,64.7
 		.talk Windcaller Blackhoof##18070
 		..turnin Safeguarding the Watchers##9894
-	step //44
+	step //43
 		goto 80.4,64.2
 		.talk Ikeyen##17956
 		..turnin A Damp, Dark Place##9788
+	step //44
+		goto 80.4,64.2
+		.' Return to Nagas and grind Cenarion Expedition rep, until friendly. |condition rep('Cenarion Expedition')==Friendly
 		.talk Lauranna Thar'well##17909
 		..turnin Saving the Sporeloks##10096
+		.' You should have 10 Unidentified Plant Parts by now..
+		.' If not, continue killing random Zangarmarsh creatures until you have at least 10.
+		..accept Plants of Zangarmarsh##9802
+		.get 10 Unidentified Plant Parts|q 9802/1
+		..turnin Plants of Zangarmarsh##9802
 	step //45
 		goto 79.1,65.3
 		.talk Warden Hamoot##17858
@@ -13131,9 +13138,9 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Levels (62-64
 		..turnin The Count of the Marshes##9911
 	step //85
 		goto 19.1,63.9
-		.talk Fahssn##17923
-		.' You must be Friendly with Sporeggar to accept these quests.
+		.' You must be Friendly with Sporeggar to accept these quests.|condition rep('Sporeggar')==Friendly
 		.' Gain reputation by killing Starving Fungal Giants and Starving Bog Lords in the nearby area.
+		.talk Fahssn##17923
 		..accept The Sporelings' Plight##9739
 		..accept Natural Enemies##9743
 		..turnin Natural Enemies##9743
