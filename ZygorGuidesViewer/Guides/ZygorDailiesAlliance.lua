@@ -3,6 +3,95 @@ if not ZygorGuidesViewer then return end
 --TRIAL if ZygorGuidesViewer.AllianceDailiesInstalled then return end
 if UnitFactionGroup("player")~="Alliance" then return end
 
+ZygorGuidesViewer:RegisterGuide("Corey's GarryOwen Dailies Guide\\GarryOwen\\Sigils of GarryOwen",[[
+	description This guide section contains the GarryOwen Dailies for Level 60+.
+	description This guide section should be in order of easiest to hardest.
+	author ErebusAres
+    daily
+	startlevel 60
+	step //1
+		.'You will have to manually advance this guide, due to the nature of the quests and locations involved.
+		.'Click the "Next Step" button, to the left, to progress each setp.
+		.'<-----
+		.' Happy Hunting. 
+	step //2
+		.' Return to GarryOwen|cast Teleport: GarryOwen##31
+		'Go to GarryOwen Embassy|goto Garryowen Fields Forever|noway|c|tip Manually progress the guide while in GarryOwen.
+	step //3
+		.talk Major Joel H. Elliot##60013
+		..accept Clearing the Way for the Zandalari##50029
+		..accept The Neverending Story...##50030
+		..accept Snuffing Out the Fire##50031
+		..accept Die Another Day##50032
+		..accept It's a Hell of a job##50033
+	step //4
+		'Go back outside GarryOwen Township|goto Garryowen Fields Forever|noway|c
+	step //5
+		.talk Vesprystus##3838
+		.'Ignore the default tip..
+		.'He's out to the left, follow the road straight up towards the Garryowen Smithy area.
+		'Fly to Stormwind|goto Stormwind City|noway|c
+	step //6
+		'Fly to Morgan's Vigil, Burning Steppes|goto Burning Steppes|noway|c
+	step //7
+		goto Burning Steppes,31.6,61.5
+		.kill 10 Flamescale Dragonspawn|q 50031/1
+		.kill 10 Flamescale Wyrmkin|q 50031/2
+		.kill 1 Searscale Drake|q 50031/3
+		.' You can find more Flamescale up the hill at 31.0,63.8|goto 31.0,63.8
+		.' You can find more Flamescale at 35.4,48.5|goto 35.4,48.5
+		.' You can find more Flamescale at 21.3,46.4|goto 21.3,46.4
+	step //8
+		'Fly to Light's Hope Chapel, Eastern Plaguelands|goto Eastern Plaguelands|noway|c|tip You can Teleport back to Garryowen and Talk to Vesprystus and go to Stormwind to speed up this task.
+	step //9
+		goto Eastern Plaguelands,71.9,49.9
+		.kill 5 Death Singer|q 50030/1
+		.kill 5 Diseased Flayer|q 50030/2
+		.kill 5 Dread Weaver|q 50030/3
+		.kill 5 Scourge Champion|q 50030/4
+		.'Defeat creatures as you go NorthEast, up the hill|goto Eastern Plaguelands,72.0,41.6
+		.'You can find a few more of each creature in this upper area|goto Eastern Plaguelands,76.4,37.5
+	step //10
+		'Fly to Cenarion Hold, Silithus|goto Silithus|noway|c|tip Teleport back to Garryowen and fly out to Darnassus this time.
+	step //11
+		goto Silithus,39.0,44.3
+		.kill 10 Twilight Avenger|q 50032/1
+		.kill 10 Twilight Geolord|q 50032/2
+	step //12
+		goto Silithus,66.5,21.0
+		.kill 3 Twilight Master|q 50032/3
+	step //13
+		'Fly to Rebel Camp, Stranglethorn Vale|goto Stranglethorn Vale|noway|c|tip Teleport back to Garryowen and fly to Stormwind.
+	step //14
+		goto Stranglethorn Vale,48.7,17.6
+		.'These mobs are located up the hill towards the 20-Man Raid Zul'Gurub.
+		.'This quest is recommended for a group of 2+.
+		.'Grab a friend if it's too difficult to solo.
+		.kill 10 Gurubashi Warrior|q 50029/1
+		.kill 10 Hakkari Oracle|q 50029/2
+	step //15
+		'Fly to Nethergarde Keep, Blasted Lands|goto Blasted Lands|noway|c|tip Teleport back to Garryowen and fly to Stormwind.
+	step //16
+		goto Blasted Lands,43.4,57.7
+		.' This quest is recommend for groups of 3+.
+		.' Grab a few friends if it's too difficult to solo.
+		.kill 10 Felguard Elite|q 50033/1
+		.kill 3 Manahound|q 50033/2
+		.kill 2 Doomguard Commander|q 50033/3
+		.kill 1 Dreadlord|q 50033/4|goto Blasted Lands,39.3,73.6
+	step //17
+		.' Return to GarryOwen|cast Teleport: GarryOwen##31
+		'Go to GarryOwen Embassy|goto Garryowen Fields Forever|noway|c|tip Manually progress the guide while in GarryOwen.
+	step //18
+		.talk Major Joel H. Elliot##60013
+		..turnin Clearing the Way for the Zandalari##50029
+		..turnin The Neverending Story...##50030
+		..turnin Snuffing Out the Fire##50031
+		..turnin Die Another Day##50032
+		..turnin It's a Hell of a job##50033
+		.'Congrats on your +11 Sigils of Garryowen
+]])
+
 ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Dailies Guides\\Borean Tundra\\Borean Tundra Pre-Quests",[[
 	description This guide section contains the pre-quests to unlock the daily quests in the Coldarra region of Borean Tundra.
 	description The Kaskala region of Borean Tundra does not have any pre-quests to unlock the daily quest that is available there.
