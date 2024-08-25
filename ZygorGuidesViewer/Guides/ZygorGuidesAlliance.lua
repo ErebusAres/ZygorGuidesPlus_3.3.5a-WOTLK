@@ -13136,17 +13136,18 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Levels (62-64
 		..turnin Watcher Leesa'oh##9697
 		..accept Observing the Sporelings##9701
 		..turnin The Count of the Marshes##9911
+	step //86
+		goto 14.5,61.6
+		.' You must be Friendly with Sporeggar to accept the next quests.|condition rep('Sporeggar')==Friendly
+		.' Gain reputation by killing Starving Fungal Giants and Starving Bog Lords in the nearby area.
+		.' Pick up Mature Spore Sacs while grinding reputation.
+		.collect 40 Mature Spore Sac##24290|q 9739|tip They look like pink balls tied to a little string bobbing on the ground.  You need 30 extra to turn in for Sporeggar reputation, so you can accept quests. |future
 	step //85
 		goto 19.1,63.9
-		.' You must be Friendly with Sporeggar to accept these quests.|condition rep('Sporeggar')==Friendly
-		.' Gain reputation by killing Starving Fungal Giants and Starving Bog Lords in the nearby area.
 		.talk Fahssn##17923
 		..accept The Sporelings' Plight##9739
 		..accept Natural Enemies##9743
 		..turnin Natural Enemies##9743
-	step //86
-		goto 14.5,61.6
-		.collect 40 Mature Spore Sac##24290|q 9739|tip They look like pink balls tied to a little string bobbing on the ground.  You need 30 extra to turn in for Sporeggar reputation, so you can accept quests. |future
 	step //87
 		goto 13.6,59.8
 		.' Go here to Investigate the Spawning Glen|goal Investigate the Spawning Glen|q 9701/1
@@ -13395,10 +13396,14 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Levels (64-66
 		goto 54,44.8
 		.talk A'dal##18481
 		..turnin A'dal##10210
-	step //22
+	step //22.1
+		'Go outside, South to Terokkar Forest|goto Terokkar Forest|noway|c
+	step //22.2
 		goto 37.6,51.6
 		.talk Kirrik the Awakened##22272
 		..accept Speak with Rilak the Redeemed##10908
+	step //22.3
+		'Go North to Shattrath City|goto Shattrath City|noway|c
 	step //23
 		goto 54.8,44.3
 		.talk Khadgar##18166
@@ -13411,7 +13416,6 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Levels (64-66
 	step //25
 		'As you follow the pink voidwalker, go to 52.6,21.0|goto 52.6,21.0
 		.talk Rilak the Redeemed##22292
-		..turnin Speak with Rilak the Redeemed##22272
 		..accept The Eyes of Skettis##10847
 	step //26
 		'Follow the pink voidwalker until the tour is over|goal City of Light|q 10211/1
