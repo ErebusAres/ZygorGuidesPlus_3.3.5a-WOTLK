@@ -14,6 +14,9 @@ ZygorGuidesViewer:RegisterGuide("Corey's GarryOwen Dailies Guide\\GarryOwen\\Sig
 		.' Return to GarryOwen|cast Teleport: GarryOwen##31
 		'Go to GarryOwen Embassy|goto Garryowen Fields Forever|noway|c|tip Manually progress the guide while in GarryOwen.
 	step //2
+		.' This guide is designed to progress in order of difficulty.
+		.' If you struggle at any point, feel free to move on to the next one manually, but it may be harder to complete than the last.
+		.' Each Quest may be harder or easier to complete based on many factors. Good luck!
 		.talk Major Joel H. Elliot##60013
 		..accept Clearing the Way for the Zandalari##50029
 		..accept The Neverending Story...##50030
@@ -97,6 +100,9 @@ ZygorGuidesViewer:RegisterGuide("Corey's GarryOwen Dailies Guide\\GarryOwen\\Bur
 		.' Return to GarryOwen|cast Teleport: GarryOwen##31
 		'Go to GarryOwen Embassy|goto Garryowen Fields Forever|noway|c|tip Manually progress the guide while in GarryOwen.
 	step //2
+		.' This guide is designed to progress in order of difficulty.
+		.' If you struggle at any point, feel free to move on to the next one manually, but it may be harder to complete than the last.
+		.' Each Quest may be harder or easier to complete based on many factors. Good luck!
 		.talk 1st Lt. Edward S. Godfrey##60098
 		..accept Where It Starts and Stop It##50035
 		..accept Water Wars##50036
