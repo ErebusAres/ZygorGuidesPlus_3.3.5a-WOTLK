@@ -13399,7 +13399,7 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Levels (64-66
 	step //22.1
 		'Go outside, South to Terokkar Forest|goto Terokkar Forest|noway|c
 	step //22.2
-		goto 37.6,51.6
+		goto Terokkar Forest,37.6,51.6
 		.talk Kirrik the Awakened##22272
 		..accept Speak with Rilak the Redeemed##10908
 	step //22.3
@@ -13542,7 +13542,7 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Levels (64-66
 		.talk Ethan##22365
 		..accept Missing Friends##10852
 	step //58
-		goto 37.4,51.2
+		goto 37.8,49.9
 		.talk Mekeda##22370
 		..accept Before Darkness Falls##10878
 	step //59
@@ -13564,7 +13564,7 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Levels (64-66
 		.' Click the Cabal Orders|use Cabal Orders##31707
 		..accept Cabal Orders##10880
 	step //62
-		goto 37.4,51.2
+		goto 37.8,49.9
 		.talk Mekeda##22370
 		..turnin Cabal Orders##10880
 		..accept The Shadow Tomb##10881
@@ -13577,7 +13577,7 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Levels (64-66
 		.kill 4 Cabal Spell-weaver|q 10878/2
 		.kill 2 Cabal Initiate|q 10878/3
 	step //65
-		goto 37.4,51.2
+		goto 37.8,49.9
 		.talk Mekeda##22370
 		..turnin Before Darkness Falls##10878
 	step //66
@@ -13587,13 +13587,13 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Levels (64-66
 	step //67
 		goto 32.1,51.2
 		.' Click the Cabal Chest|tip Inside the Shadow Tomb, inside a Cabal Chest in the back left of the room on the ground.
-		.get Drape of Arunen|q 10881/1
+		.get Scroll of Atalor|q 10881/3
 	step //68
 		goto 31.2,46.7
 		.' Click the Cabal Chest|tip Inside the Shadow Tomb, inside a Cabal Chest in the back right of the room on the ground.
-		.get Scroll of Atalor|q 10881/3
+		.get Drape of Arunen|q 10881/1
 	step //69
-		'Go outside to 37.4,51.2|goto 37.4,51.2
+		'Go outside to 37.8,49.9|goto 37.8,49.9
 		.talk Mekeda##22370
 		..turnin The Shadow Tomb##10881
 	step //70
@@ -13608,7 +13608,7 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Levels (64-66
 		.' Use the Rod of Purification on the Darkstone of Terokk|use Rod of Purification##31610
 		.' Purify the Darkstone of Terokk|goal Attempt to purify the Darkstone of Terrok|q 10839/1
 	step //72
-		goto 37.4,51.5
+		goto Terokkar Forest,37.4,51.5
 		.talk Kirrik the Awakened##22272
 		..turnin Veil Skith: Darkstone of Terokk##10839
 		..accept Veil Rhaze: Unliving Evil##10848
@@ -13622,7 +13622,7 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Levels (64-66
 		.kill 4 Screeching Spirit|q 10848/2
 		.kill 2 Spirit Raven|q 10848/3
 	step //75
-		goto 37.4,51.5
+		goto Terokkar Forest,37.4,51.5
 		.talk Kirrik the Awakened##22272
 		..turnin Veil Rhaze: Unliving Evil##10848
 		..accept Veil Lithic: Preemptive Strike##10861
@@ -13672,7 +13672,7 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Levels (64-66
 		.talk Commander Ra'vaj##22446
 		..turnin The Fallen Exarch##10915
 	step //86
-		goto 37.4,51.5
+		goto Terokkar Forest,37.4,51.5
 		.talk Kirrik the Awakened##22272
 		..turnin Veil Lithic: Preemptive Strike##10861
 		..accept Veil Shalas: Signal Fires##10874
@@ -13713,7 +13713,7 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Levels (64-66
 		.' Click the Violet Signal Fire|tip Across the hanging bridge from the Bloodstone Signal Fire.
 		.' Extinguish the Violet Signal Fire|goal Violet Fire Extinguished|q 10874/3
 	step //97
-		goto 37.4,51.5
+		goto Terokkar Forest,37.4,51.5
 		.talk Kirrik the Awakened##22272
 		..turnin Veil Shalas: Signal Fires##10874
 		..accept Return to Shattrath##10889
