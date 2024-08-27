@@ -4908,14 +4908,15 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Main Guide (1
 		goto 57.1,19.3
 		.' Click the Sack of Oats (if it's not there, wait a few minutes, it will reappear)|tip This is where I get my first Sack of Oats for "Poor Old Blanchy".  Get the rest of them as you see them around Westfall.
 		.get a Handful of Oats|n
-		.get the other 7 Handfuls of Oats as you see them around Westfall|n
+		.get the other 7 Handfuls of Oats as you see them around Westfall|q 151/q
+		.'You can find more at the following locations:|goto 55.8,30.8|goto 56.4,33.9|goto 56.1,35.4|goto 56.5,18.6
 	step //37
 		goto 57,15.1
 		.from Riverpaw Gnoll##725+, Riverpaw Scout##500+
 		.get 8 Gnoll Paw|q 102/1
 		.' You can find more gnolls at 52.4,16.2|n
 	step //38
-		goto 55.1,12.3
+		goto 55.0,10.0
 		.from Murloc Raider##515+, Murloc Coastrunner##126+
 		.get 3 Murloc Eye|q 38/2
 	step //39
