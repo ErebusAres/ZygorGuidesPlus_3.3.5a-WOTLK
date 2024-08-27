@@ -629,7 +629,7 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Human (1-13)"
 		..turnin Washed Ashore (1)##3524
 		..accept Washed Ashore (2)##4681
 	step //149
-		goto 31.7,42.9
+		goto 34.8,52.6
 		.from Darkshore Thresher##2185+
 		.get 3 Thresher Eye|q 1001/1
 	step //150
@@ -1449,7 +1449,7 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Night Elf (1-
 		..turnin Washed Ashore (1)##3524
 		..accept Washed Ashore (2)##4681
 	step //165
-		goto 32.7,47.7
+		goto 34.8,52.6
 		.from Darkshore Thresher##2185+
 		.get 3 Thresher Eye|q 1001/1
 	step //166
@@ -2185,7 +2185,7 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Gnome (1-13)"
 		..turnin Washed Ashore (1)##3524
 		..accept Washed Ashore (2)##4681
 	step //135
-		goto 32.7,47.7
+		goto 34.8,52.6
 		.from Darkshore Thresher##2185+
 		.get 3 Thresher Eye|q 1001/1
 	step //136
@@ -2893,7 +2893,7 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Dwarf (1-13)"
 		..turnin Washed Ashore (1)##3524
 		..accept Washed Ashore (2)##4681
 	step //148
-		goto 32.7,47.7
+		goto 34.8,52.6
 		.from Darkshore Thresher##2185+
 		.get 3 Thresher Eye|q 1001/1
 	step //149
@@ -3679,7 +3679,7 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Draenei (1-13
 		..turnin Washed Ashore (1)##3524
 		..accept Washed Ashore (2)##4681
 	step //161
-		goto 32.7,47.7
+		goto 34.8,52.6
 		.from Darkshore Thresher##2185+
 		.get 3 Thresher Eye|q 1001/1
 	step //162
