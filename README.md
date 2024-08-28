@@ -1,7 +1,7 @@
 # Information:
 This is designed for use in a Private Server using Trinity Core.
 
-All works credited to the original creator of ZygorGuides with minor tweaks to the guides as listed below.
+All works credited to the original creator of ZygorGuides with minor tweaks to the guides as listed [Here](https://github.com/ErebusAres/ZygorGuidesPlus_3.3.5a-WOTLK/commits/main/).
 
 # Installation:
 * [Download](https://github.com/ErebusAres/ZygorGuidesPlus_3.3.5a-WOTLK/archive/refs/heads/main.zip) the Main ZIP file and extract it.
