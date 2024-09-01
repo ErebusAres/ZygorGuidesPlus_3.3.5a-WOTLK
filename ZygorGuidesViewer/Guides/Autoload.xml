@@ -13,6 +13,7 @@
 	<Script file="ZygorDungeonHorde.lua"/>
 	<Script file="ZygorUAlliance.lua"/>
 	<Script file="ZygorUHorde.lua"/>
+	<Script file="ZygorAchievementAlliance.lua"/>
 
 	<Script file="ZygorGuidesAllianceTrial.lua"/>
 	<Script file="ZygorGuidesHordeTrial.lua"/>
