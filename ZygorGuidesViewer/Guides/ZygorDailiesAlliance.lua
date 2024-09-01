@@ -14,9 +14,6 @@ ZygorGuidesViewer:RegisterGuide("Corey's GarryOwen Dailies Guide\\GarryOwen\\Sig
 		.' Return to GarryOwen|cast Teleport: GarryOwen##31
 		'Go to GarryOwen Embassy|goto Garryowen Fields Forever|noway|c|tip Manually progress the guide while in GarryOwen.
 	step //2
-		.' This guide is designed to progress in order of difficulty.
-		.' If you struggle at any point, feel free to move on to the next one manually, but it may be harder to complete than the last.
-		.' Each Quest may be harder or easier to complete based on many factors. Good luck!
 		.talk Major Joel H. Elliot##60013
 		..accept Clearing the Way for the Zandalari##50029
 		..accept The Neverending Story...##50030
@@ -100,9 +97,6 @@ ZygorGuidesViewer:RegisterGuide("Corey's GarryOwen Dailies Guide\\GarryOwen\\Bur
 		.' Return to GarryOwen|cast Teleport: GarryOwen##31
 		'Go to GarryOwen Embassy|goto Garryowen Fields Forever|noway|c|tip Manually progress the guide while in GarryOwen.
 	step //2
-		.' This guide is designed to progress in order of difficulty.
-		.' If you struggle at any point, feel free to move on to the next one manually, but it may be harder to complete than the last.
-		.' Each Quest may be harder or easier to complete based on many factors. Good luck!
 		.talk 1st Lt. Edward S. Godfrey##60098
 		..accept Where It Starts and Stop It##50035
 		..accept Water Wars##50036
@@ -167,8 +161,329 @@ ZygorGuidesViewer:RegisterGuide("Corey's GarryOwen Dailies Guide\\GarryOwen\\Bur
 		..turnin Magically Delicious##50038
 		..turnin It Comes Back to Bite you##50039
 ]])
+ZygorGuidesViewer:RegisterGuide("Corey's Alliance Reputation Guides\\Outland\\Cenarion Expedition Repeatable Reputation Quests",[[
+	description This guide contains the repeatable quests to gain reputation with the Cenarion Expedition.
+	author ErebusAres
+	step //1
+		goto Zangarmarsh,80.2,64.2
+		.talk Lauranna Thar'well##17909
+		..accept Plants of Zangarmarsh##9802
+		.collect 10 Unidentified Plant Parts|q 24401/1|tip These drop from pretty much every creature in the Zangarmarsh area.
+		.'The Quest is Repeatable until you are Honored.|condition rep('Cenarion Expedition')>=Honored
+		..accept Identify Plant Parts##9784
+		.' Kill Fungal Giants and Bog Lords|goto 28.0,64.6|tip I recommend these since you can get twice the chances if your Herbalism is high enough to harvest their bodies.
+		.collect 360 Unidentified Plant Parts|q 9784|future|tip "The Internet" says that getting and turning in 360 will get you from default standing to Honored.
+		..turnin Identify Plant Parts##9784
+	step //2
+		.'The Quest is Repeatable until you are Revered.|condition rep('Cenarion Expedition')>=Revered
+		.'Open the Package of Identified Plants you get from the previous quest|use Package of Identified Plants##24402
+		.'Click the Uncatalogued Species to start the quest|use Uncatalogued Species##24407
+		..accept Uncatalogued Species##9875
+		..turnin Uncatalogued Species##9875
+	step //3
+		.'The Quest is Repeatable until you are Exalted. |condition rep('Cenarion Expedition')>=Exalted
+		..accept Coilfang Armaments##9766|tip The Quest requires a random BoE drop from The Steamvaults (L70 Coilfang Instance).
 
 
+]])
+ZygorGuidesViewer:RegisterGuide("Corey's Alliance Reputation Guides\\Outland\\Cenarion Expedition Reputation Quests",[[
+	description This guide contains the quests to gain reputation with the Cenarion Expedition.
+	description The Quests are in order via list on https://www.wowhead.com/tbc/guide/cenarion-expedition-reputation-rewards-burning-crusade-classic-wow
+	author ErebusAres
+	step //1
+		goto Hellfire Peninsula,23.4,36.6
+		.talk Amaan the Wise##16796
+		..accept Helping the Cenarion Post##10443
+	step //2
+		goto Hellfire Peninsula,15.6,52.2
+		.talk Thiah Redmane##16991
+		..turnin Helping the Cenarion Post##10443
+		..accept Demonic Contamination##9372
+		.talk Tola'thion##19293
+		..accept Colossal Menace##10132
+	step //3
+		goto Hellfire Peninsula,15.6,45.2
+		..kill 5 Raging Colossus|q 10132/1
+		.'A Crimson Crystal Shard will drop while killing them|use Crimson Crystal Shard##29476
+		..accept Crimson Crystal Clue##10134
+	step //4
+		goto Hellfire Peninsula,15.6,52.2
+		.talk Tola'thion##19293
+		..turnin Colossal Menace##10132
+		..turnin Crimson Crystal Clue##10134
+		..accept The Earthbinder##10349
+	step //5
+		goto Hellfire Peninsula,15.9,51.6
+		.talk Earthbinder Galandria Nightbreeze##19294
+		..turnin The Earthbinder##10349
+		.'Kill the creature that spawns
+		..accept Natural Remedies##10351
+	step //6
+		goto Hellfire Peninsula,23.2,54.8
+		.'Kill Hulking Helboar
+		.get 6 Helboar Blood Sample##23336|q 9372/1
+	step //7
+		goto Hellfire Peninsula,48.8,64.4
+		.'Kill Marauding Crust Burster
+		.'Or Kill Tunneler|goto 31.2,63.0
+		.get Eroded Leather Case|n|use Eroded Leather Case##23338
+		.accept Missing Missive##9373
+	step //8
+		goto Hellfire Peninsula,15.6,52.2
+		.talk Thiah Redmane##16991
+		..turnin Demonic Contamination##9372
+		..turnin Missing Missive##9373
+		..accept Testing the Antidote##10255
+		.talk Mahuram Stouthoof##16888
+		..accept Keep Thornfang Hill Clear!##10159
+	step //9
+		goto Hellfire Peninsula,23.2,54.8
+		.' Use the Cenarion Antidote on a Hulking Helboar|use Cenarion Antidote##23337
+		.' Administer the Antidote|goal Administer Antidote|q 10255/1
+	step //10
+		goto 12.3,49.9
+		.kill 8 Thornfang Ravager|q 10159/1
+		.kill 8 Thornfang Venomspitter|q 10159/2
+	step //11
+		goto 13.6,39.1
+		.' Use the Seed of Revitalization in the Green Circle.|use Seed of Revitalization|n
+		.'Kill Goliathon|goal Fallen Sky Ridge Revitalized|q 10351/1|tip This quest is recommended for a group of 2+
+	step //12
+		goto 15.7,52
+		.talk Thiah Redmane##16991
+		..turnin Testing the Antidote##10255
+		.talk Mahuram Stouthoof##16888
+		..turnin Keep Thornfang Hill Clear!##10159
+	step //13
+		goto Hellfire Peninsula,15.9,51.6
+		.talk Earthbinder Galandria Nightbreeze##19294
+		..turnin Natural Remedies##10351
+	step //14
+		'Go northwest to Zangarmarsh|goto Zangarmarsh|noway|c
+	step //15
+		goto 78.4,62
+		.talk Ysiel Windsinger##17841
+		..accept Warning the Cenarion Circle##9724
+	step //16
+		'Go east to Hellfire Peninsula|goto Hellfire Peninsula|noway|c
+	step //17
+		goto Hellfire Peninsula,15.7,52
+		.talk Amythiel Mistwalker##16885
+		..turnin Warning the Cenarion Circle##9724
+		..accept Return to the Marsh##9732
+	step //18
+		'Go northwest to Zangarmarsh|goto Zangarmarsh|noway|c
+	step //19
+		goto Zangarmarsh,80.4,64.2
+		.talk Ikeyen##17956
+		..accept The Umbrafen Tribe##9747
+	step //20
+		goto 78.4,62
+		.talk Ysiel Windsinger##17841
+		..turnin Return to the Marsh##9732
+		..accept Warden Hamoot##9778
+		..accept Disturbance at Umbrafen Lake##9716
+	step //21
+		goto 79.1,65.3
+		.talk Warden Hamoot##17858
+		..turnin Warden Hamoot##9778
+		..accept A Warm Welcome##9728
+	step //22
+		goto 79.1,64.8
+		.' Click the Wanted Poster|tip Below Warden Hamoot, To the Right of the entrance to his tower.
+		..accept Leader of the Darkcrest##9730
+		..accept Leader of the Bloodscale##9817
+	step //23
+		goto 78.5,63.1
+		.talk Lethyn Moonfire##17834
+		..accept The Dying Balance##9895
+	step //24
+		goto 80.1,73.3
+		.kill Boglash|q 9895/1|tip I found Boglash here. He is a tall alien looking thing with really long legs. He walks around in the water, so some searching may be necessary.
+		.kill Boglash and Fen Striders|n|tip It's easier if you just run around in the water all around the east part of Zangarmarsh.
+		.collect 6 Fertile Spores##24449|q 9806/1|future
+		.kill all mobs in this area|n
+		.collect 10 Unidentified Plant Parts|q 9802/1|future
+	step //25
+		goto 78.5,63.1
+		.talk Lethyn Moonfire##17834
+		..turnin The Dying Balance##9895
+	step //26
+		goto 85.3,90.9
+		.kill Kataru|q 9747/1|tip In the big building, all the way at the top.
+	step //27
+		goto 84.8,84.4
+		.kill 6 Umbrafen Oracle|q 9747/2
+		.kill 8 Umbrafen Seer|q 9747/3
+		.kill 6 Umbrafen Witchdoctor|q 9747/4
+	step //28
+		goto 83.4,85.5
+		.talk Kayra Longmane##17969
+		..accept Escape from Umbrafen##9752
+		..'Escort Kayra Longmane|goal Escort Kayra Longmane to safety|q 9752/1
+	step //29
+		goto 80.4,64.2
+		.talk Ikeyen##17956
+		..turnin The Umbrafen Tribe##9747
+		..accept A Damp, Dark Place##9788
+		.talk Lauranna Thar'well##17909
+		..accept Saving the Sporeloks##10096
+	step //30
+		goto 80.4,64.7
+		.talk Windcaller Blackhoof##18070
+		..accept Safeguarding the Watchers##9894
+	step //31
+		goto 78.4,62
+		.talk Ysiel Windsinger##17841
+		..turnin Escape from Umbrafen##9752
+	step //32
+		goto 74.7,91.6|n
+		.' The path to 'Ikeyen's Belongings' starts here|goto Zangarmarsh,74.7,91.6,0.3|noway|c
+	step //33
+		'Go southwest inside the cave to 70.5,97.9|goto 70.5,97.9
+		.' Head right as you enter the cave.
+		.' Defeat the creatures in the cave as you go.
+		.kill 10 Marsh Lurker|q 10096/2|n
+		.kill 10 Marsh Dredger|q 10096/1|n
+		.' Click Ikeyen's Belongings|tip A little tan metal chest sitting on a beg flat rock.
+		.get Ikeyen's Belongings|q 9788/1
+	step //34
+		'Go northeast inside the cave to 72.5,94.0|goto 72.5,94.0
+		.kill Lord Klaq|q 9894/1|tip On the bottom level of the cave, in the small round room all the way in the back.
+	step //35
+		goto 75.7,90.2
+		.' There should be exactly enough if you do a full loop around to the boss and leave back out to the left.
+		.kill 10 Marsh Lurker|q 10096/2
+		.kill 10 Marsh Dredger|q 10096/1
+	step //36
+		goto 70.9,82.1
+		.' Stand here to Investigate Umbrafen Lake|goal Umbrafen Lake Investigated|q 9716/1
+		.kill nagas|n
+		.get 30 Naga Claws|q 9728/1
+	step //37
+		goto 80.4,64.7
+		.talk Windcaller Blackhoof##18070
+		..turnin Safeguarding the Watchers##9894
+	step //38
+		goto 80.4,64.2
+		.talk Ikeyen##17956
+		..turnin A Damp, Dark Place##9788
+	step //39
+		goto 80.4,64.2
+		.' Return to Nagas and grind Cenarion Expedition rep, until friendly. |condition rep('Cenarion Expedition')>=Friendly
+		.talk Lauranna Thar'well##17909
+		..turnin Saving the Sporeloks##10096
+		.' You should have 10 Unidentified Plant Parts by now..
+		.' If not, continue killing random Zangarmarsh creatures until you have at least 10.
+		..accept Plants of Zangarmarsh##9802
+		.get 10 Unidentified Plant Parts|q 9802/1
+		..turnin Plants of Zangarmarsh##9802
+	step //40
+		goto 79.1,65.3
+		.talk Warden Hamoot##17858
+		..turnin A Warm Welcome##9728
+	step //41
+		goto 80.4,64.7
+		.talk Windcaller Blackhoof##18070
+		..accept Blessings of the Ancients##9785
+	step //42
+		goto 78.5,63.1
+		.talk Lethyn Moonfire##17834
+		..accept Watcher Leesa'oh##9697
+		..accept What's Wrong at Cenarion Thicket?##9957
+	step //43
+		goto 78.4,62
+		.talk Ysiel Windsinger##17841
+		..turnin Disturbance at Umbrafen Lake##9716
+		..accept As the Crow Flies##9718
+		..'Use the Stormcrow Amulet in your bags|use Stormcrow Amulet##25465
+		..'Watch yourself fly as a crow
+		.talk Ysiel Windsinger##17841
+		..turnin As the Crow Flies##9718
+		..accept Balance Must Be Preserved##9720
+	step //44
+		goto 78.1,63.8
+		.talk Keleth##17901
+		.'Get the Mark of War|goal Mark of War|q 9785/2
+	step //45
+		goto 81.1,63.9
+		.talk Ashyen##17900
+		.'Get the Mark of Lore|goal Mark of Lore|q 9785/1
+	step //46
+		goto 80.4,64.7
+		.talk Windcaller Blackhoof##18070
+		..turnin Blessings of the Ancients##9785
+	step //47
+		goto 70.6,80.3
+		.' Use your Ironvine Seeds on the Umbrafen Lake Pump Controls|use Ironvine Seeds##24355|tip The pump controls look like a little box with some levers on it.
+		.' Disable the Umbrafen Lake Pump Controls|goal Umbrafen Lake Controls Disabled|q 9720/1
+	step //48
+		goto 63.1,64.1
+		.' Use your Ironvine Seeds on the Lagoon Pump Controls|use Ironvine Seeds##24355|tip The pump controls look like a little box with some levers on it.
+		.' Disable the Lagoon Pump Controls|goal Lagoon Controls Disabled|q 9720/4
+	step //49
+		goto 65.0,67.4
+		.kill Rajah Haghazed|q 9730/1
+	step //50
+		goto 62,40.8
+		.' Use your Ironvine Seeds on the Serpent Lake Controls|use Ironvine Seeds##24355|tip The pump controls look like a little box with some levers on it.
+		.' Disable the Serpent Lake Controls|goal Serpent Lake Controls Disabled|q 9720/3
+		.' Kill Steam Pump Overseers, Bloodscale Overseers, and Bloodscale Wavecallers
+		.get Drain Schematics|n
+		.' Click the Drain Schematics in your bags|use Drain Schematics##24330
+		..accept Drain Schematics##9731
+	step //51
+		goto 65.0,40.8
+		.kill Rajis Fyashe|q 9817/1
+	step //52
+		goto 32.8,59.1
+		.from "Count" Ungula##18285
+		.get "Count" Ungula's Mandible|n
+		.' Click "Count" Ungula's Mandible|use "Count" Ungula's Mandible##25459
+		..accept The Count of the Marshes##9911
+	step //53
+		goto 23.3,66.2
+		.talk Watcher Leesa'oh##17831
+		..turnin Watcher Leesa'oh##9697
+		..accept Observing the Sporelings##9701
+		..turnin The Count of the Marshes##9911
+	step //54
+		goto 13.6,59.8
+		.' Go here to Investigate the Spawning Glen|goal Investigate the Spawning Glen|q 9701/1
+	step //55
+		goto 23.3,66.2
+		.talk Watcher Leesa'oh##17831
+		..turnin Observing the Sporelings##9701
+		..accept A Question of Gluttony##9702
+	step //56
+		goto 27,63.3
+		.' Click the Discarded Nutriments|tip They look like green glowing mushroom stalks on the ground.
+		.get 10 Discarded Nutriment|q 9702/1
+	step //57
+		goto 23.3,66.2
+		.talk Watcher Leesa'oh##17831
+		..turnin A Question of Gluttony##9702
+		..accept Familiar Fungi##9708
+	step //58
+		goto 29.6,28.3
+		.'Kill Ango'rosh Shaman|n
+		.'Kill Ango'rosh Ogre|n
+		.get 15 Mushroom Sample|q 9708/1
+	step //59
+		goto 23.3,66.2
+		.talk Watcher Leesa'oh##17831
+		..turnin Familiar Fungi##9708
+		..accept Stealing Back the Mushrooms##9709
+	step //60
+		goto 17.3,10.2
+		.' Click the brown crates and kill ogres around this area
+		.get 10 Box of Mushrooms|q 9709/1
+	step //61
+		goto 79.1,65.3
+		.talk Warden Hamoot##17858
+		..turnin Leader of the Darkcrest##9730
+		..turnin Leader of the Bloodscale##9817
+]])
 ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Dailies Guides\\Borean Tundra\\Borean Tundra Pre-Quests",[[
 	description This guide section contains the pre-quests to unlock the daily quests in the Coldarra region of Borean Tundra.
 	description The Kaskala region of Borean Tundra does not have any pre-quests to unlock the daily quest that is available there.
@@ -214,8 +529,7 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Dailies Guides\\Borean Tundra\
 		..accept Corastrasza##13412
 	step //10
 		goto 29.5,24.8
-		.talk Corastrasza##32548
-		..turnin Corastrasza##13412
+		.talk Corastrasza##32548		..turnin Corastrasza##13412
 		..accept Aces High!##13413
 	step //11
 		.' Tell Corastrasza you have the courage to face Malygos drakes

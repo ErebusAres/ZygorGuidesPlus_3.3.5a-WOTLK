@@ -629,7 +629,7 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Human (1-13)"
 		..turnin Washed Ashore (1)##3524
 		..accept Washed Ashore (2)##4681
 	step //149
-		goto 34.8,52.6
+		goto 31.7,42.9
 		.from Darkshore Thresher##2185+
 		.get 3 Thresher Eye|q 1001/1
 	step //150
@@ -1449,7 +1449,7 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Night Elf (1-
 		..turnin Washed Ashore (1)##3524
 		..accept Washed Ashore (2)##4681
 	step //165
-		goto 34.8,52.6
+		goto 32.7,47.7
 		.from Darkshore Thresher##2185+
 		.get 3 Thresher Eye|q 1001/1
 	step //166
@@ -2185,7 +2185,7 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Gnome (1-13)"
 		..turnin Washed Ashore (1)##3524
 		..accept Washed Ashore (2)##4681
 	step //135
-		goto 34.8,52.6
+		goto 32.7,47.7
 		.from Darkshore Thresher##2185+
 		.get 3 Thresher Eye|q 1001/1
 	step //136
@@ -2893,7 +2893,7 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Dwarf (1-13)"
 		..turnin Washed Ashore (1)##3524
 		..accept Washed Ashore (2)##4681
 	step //148
-		goto 34.8,52.6
+		goto 32.7,47.7
 		.from Darkshore Thresher##2185+
 		.get 3 Thresher Eye|q 1001/1
 	step //149
@@ -3679,7 +3679,7 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Draenei (1-13
 		..turnin Washed Ashore (1)##3524
 		..accept Washed Ashore (2)##4681
 	step //161
-		goto 34.8,52.6
+		goto 32.7,47.7
 		.from Darkshore Thresher##2185+
 		.get 3 Thresher Eye|q 1001/1
 	step //162
@@ -4908,15 +4908,14 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Main Guide (1
 		goto 57.1,19.3
 		.' Click the Sack of Oats (if it's not there, wait a few minutes, it will reappear)|tip This is where I get my first Sack of Oats for "Poor Old Blanchy".  Get the rest of them as you see them around Westfall.
 		.get a Handful of Oats|n
-		.get the other 7 Handfuls of Oats as you see them around Westfall|q 151/q
-		.'You can find more at the following locations:|goto 55.8,30.8|goto 56.4,33.9|goto 56.1,35.4|goto 56.5,18.6
+		.get the other 7 Handfuls of Oats as you see them around Westfall|n
 	step //37
 		goto 57,15.1
 		.from Riverpaw Gnoll##725+, Riverpaw Scout##500+
 		.get 8 Gnoll Paw|q 102/1
 		.' You can find more gnolls at 52.4,16.2|n
 	step //38
-		goto 55.0,10.0
+		goto 55.1,12.3
 		.from Murloc Raider##515+, Murloc Coastrunner##126+
 		.get 3 Murloc Eye|q 38/2
 	step //39
@@ -12943,7 +12942,7 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Levels (62-64
 		..turnin A Damp, Dark Place##9788
 	step //44
 		goto 80.4,64.2
-		.' Return to Nagas and grind Cenarion Expedition rep, until friendly. |condition rep('Cenarion Expedition')==Friendly
+		.' Return to Nagas and grind Cenarion Expedition rep, until friendly. |condition rep('Cenarion Expedition')>=Friendly
 		.talk Lauranna Thar'well##17909
 		..turnin Saving the Sporeloks##10096
 		.' You should have 10 Unidentified Plant Parts by now..
@@ -13139,7 +13138,7 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Levels (62-64
 		..turnin The Count of the Marshes##9911
 	step //86
 		goto 14.5,61.6
-		.' You must be Friendly with Sporeggar to accept the next quests.|condition rep('Sporeggar')==Friendly
+		.' You must be Friendly with Sporeggar to accept the next quests.|condition rep('Sporeggar')>=Friendly
 		.' Gain reputation by killing Starving Fungal Giants and Starving Bog Lords in the nearby area.
 		.' Pick up Mature Spore Sacs while grinding reputation.
 		.collect 40 Mature Spore Sac##24290|q 9739|tip They look like pink balls tied to a little string bobbing on the ground.  You need 30 extra to turn in for Sporeggar reputation, so you can accept quests. |future
