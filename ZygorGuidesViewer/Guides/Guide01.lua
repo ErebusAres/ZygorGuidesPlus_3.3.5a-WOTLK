@@ -216,7 +216,7 @@ next Coreys's Achievement Guides\\Explore Kalimdor\\Explore Winterspring
 ]])
 ZygorGuidesViewer:RegisterGuide("Coreys's Achievement Guides\\Explore Kalimdor\\Explore Winterspring",[[
 author ErebusAres
-next Coreys's Alliance Achievement Guides\\Explore Kalimdor\\Explore Azshara
+next Coreys's Achievement Guides\\Explore Kalimdor\\Explore Azshara
     step //1
         .'Return back into the cave.|goto Felwood|noway|c
     step //2
@@ -258,7 +258,7 @@ next Coreys's Alliance Achievement Guides\\Explore Kalimdor\\Explore Azshara
 ]])
 ZygorGuidesViewer:RegisterGuide("Coreys's Achievement Guides\\Explore Kalimdor\\Explore Azshara",[[
 author ErebusAres
-next Coreys's Alliance Achievement Guides\\Explore Kalimdor\\Explore The Barrens
+next Coreys's Achievement Guides\\Explore Kalimdor\\Explore The Barrens
     step //1
         .'Unlock Bay of Storms|achieve 852/1 |goto Azshara,56,59
         .'Unlock The Shattered Strand|achieve 852/2 |goto Azshara,45,52 
