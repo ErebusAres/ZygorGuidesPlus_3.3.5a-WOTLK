@@ -196,7 +196,7 @@ next Coreys's Achievement Guides\\Explore Kalimdor\\Explore Moonglade
 ]])
 ZygorGuidesViewer:RegisterGuide("Coreys's Achievement Guides\\Explore Kalimdor\\Explore Moonglade",[[
 author ErebusAres
-next Coreys's Alliance Achievement Guides\\Explore Kalimdor\\Explore Winterspring
+next Coreys's Achievement Guides\\Explore Kalimdor\\Explore Winterspring
     step //1
         .'Continue following the road around towards the north towards Moonglade|goto Felwood,64.9,8.3|tip Through the Bear Head shaped cave.
     step //2
