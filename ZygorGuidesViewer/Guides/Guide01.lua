@@ -256,9 +256,9 @@ next Coreys's Alliance Achievement Guides\\Explore Kalimdor\\Explore Azshara
     step //20
         .'Unlock Darkwhisper Gorge|achieve 857/13|goto Winterspring,58,80
 ]])
-ZygorGuidesViewer:RegisterGuide("Coreys's Achievement Guides\\Explore Kalimdor\\Explore Winterspring",[[
+ZygorGuidesViewer:RegisterGuide("Coreys's Achievement Guides\\Explore Kalimdor\\Explore Azshara",[[
 author ErebusAres
-next Coreys's Alliance Achievement Guides\\Explore Kalimdor\\Explore Azshara
+next Coreys's Alliance Achievement Guides\\Explore Kalimdor\\Explore The Barrens
     step //1
         .'Unlock Bay of Storms|achieve 852/1 |goto Azshara,56,59
         .'Unlock The Shattered Strand|achieve 852/2 |goto Azshara,45,52 
