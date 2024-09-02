@@ -40,7 +40,7 @@ ZygorGuidesViewer:RegisterGuide("Coreys's Achievement Guides\\Explore Kalimdor\\
         goto Teldrassil,55,91
         .'Unlock Rut'theran Village|achieve 842/6
     step //2
-        goto Darnassusa,25,55
+        goto Darnassus,25,55
         .'Unlock Darnassus|achieve 842/11
     step //3
         goto Teldrassil,40,65
@@ -216,6 +216,7 @@ next Coreys's Alliance Achievement Guides\\Explore Kalimdor\\Explore Wintersprin
 ]])
 ZygorGuidesViewer:RegisterGuide("Coreys's Achievement Guides\\Explore Kalimdor\\Explore Winterspring",[[
 author ErebusAres
+next Coreys's Alliance Achievement Guides\\Explore Kalimdor\\Explore Azshara
     step //1
         .'Return back into the cave.|goto Felwood|noway|c
     step //2
@@ -254,6 +255,30 @@ author ErebusAres
         .'Unlock Frostwhisper Gorge|achieve 857/12|goto Winterspring,61,68|tip You should get this point while crossing the bridge.
     step //20
         .'Unlock Darkwhisper Gorge|achieve 857/13|goto Winterspring,58,80
+]])
+ZygorGuidesViewer:RegisterGuide("Coreys's Achievement Guides\\Explore Kalimdor\\Explore Winterspring",[[
+author ErebusAres
+next Coreys's Alliance Achievement Guides\\Explore Kalimdor\\Explore Azshara
+    step //1
+        .'Unlock Bay of Storms|achieve 852/1 |goto Azshara,56,59
+        .'Unlock The Shattered Strand|achieve 852/2 |goto Azshara,45,52 
+        .'Unlock Jagged Reef|achieve 852/3 |goto Azshara,52,10
+        .'Unlock Bitter Reaches|achieve 852/4 |goto Azshara,73,21
+        .'Unlock Tower of Eldara|achieve 852/5 |goto Azshara,89,33
+        .'Unlock Temple of Arkkoran|achieve 852/6 |goto Azshara,76,43
+        .'Unlock Legash Encampment|achieve 852/7 |goto Azshara,51,19
+        .'Unlock Thalassian Base Camp|achieve 852/8 |goto Azshara,56,29 
+        .'Unlock Ursolan|achieve 852/9 |goto Azshara,44,27
+        .'Unlock Timbermaw Hold|achieve 852/10 |goto Azshara,38,33 
+        .'Unlock Valormok|achieve 852/11 |goto Azshara,21,51
+        .'Unlock Haldarr Encampment|achieve 852/12 |goto Azshara,20,61
+        .'Unlock Shadowsong Shrine|achieve 852/13 |goto Azshara,13,74
+        .'Unlock Ruins of Eldarath|achieve 852/14 |goto Azshara,36,53
+        .'Unlock Southridge Beach|achieve 852/15 |goto Azshara,47,66
+        .'Unlock Ravencrest Monument|achieve 852/16 |goto Azshara,72,86
+        .'Unlock Lake Mennar|achieve 852/17 |goto Azshara,40,80
+        .'Unlock The Ruined Reaches|achieve 852/18 |goto Azshara,51,88
+        .'Unlock Forlorn Ridge|achieve 852/19 |goto Azshara,30,71 
 ]])
 --TRIAL ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Main Guide (13-20)",[[
 --TRIAL 	author support@zygorguides.com
