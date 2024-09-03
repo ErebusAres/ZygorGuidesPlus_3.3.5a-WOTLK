@@ -424,7 +424,19 @@ ZygorGuidesViewer:RegisterGuide("Corey's Achievement Guides\\Explore Kalimdor\\E
 author ErebusAres
 next Corey's Achievement Guides\\Explore Kalimdor\\Explore Stonetalon Mountains
     step
-        .' Not started yet :(
+        .'Travel to Stonetalon Mountains|goto Stonetalon Mountains|noway|c
+    step
+        .' Unlock Camp Aparaje |achieve 847/1 |goto Stonetalon Mountains,76,92
+        .' Unlock Grimtotem Post |achieve 847/2 |goto Stonetalon Mountains,75,86
+        .' Unlock Malaka'jin |achieve 847/3 |goto Stonetalon Mountains,72,93
+        .' Unlock Webwinder Path |achieve 847/4 |goto Stonetalon Mountains,57,66
+        .' Unlock Boulderslide Ravine |achieve 847/5 |goto Stonetalon Mountains,65,91
+        .' Unlock Sishir Canyon |achieve 847/6 |goto Stonetalon Mountains,54,75
+        .' Unlock Windshear Crag |achieve 847/7 |goto Stonetalon Mountains,68,48
+        .' Unlock Sun Rock Retreat |achieve 847/8 |goto Stonetalon Mountains,49,60
+        .' Unlock The Charred Vale |achieve 847/9 |goto Stonetalon Mountains,32,65
+        .' Unlock Mirkfallon Lake |achieve 847/10 |goto Stonetalon Mountains,48,40
+        .' Unlock Stonetalon Peak |achieve 847/11 |goto Stonetalon Mountains,36,12
 ]])
 --TRIAL ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Main Guide (13-20)",[[
 --TRIAL 	author support@zygorguides.com
