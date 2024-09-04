@@ -388,7 +388,7 @@ next Corey's Achievement Guides\\Explore Kalimdor\\Explore Durotar
 ]]) 
 ZygorGuidesViewer:RegisterGuide("Corey's Achievement Guides\\Explore Kalimdor\\Explore Durotar",[[
 author ErebusAres
-next Corey's Achievement Guides\\Explore Kalimdor\\Explore STM
+next Corey's Achievement Guides\\Explore Kalimdor\\Explore Stonetalon Mtns
     step
         .'Travel to Durotar|goto Durotar|noway|c
     step
@@ -420,7 +420,7 @@ next Corey's Achievement Guides\\Explore Kalimdor\\Explore STM
     step
         .'Unlock Orgrimmar |achieve 728/11|tip Quickly run in and leave when you get the achievement.
 ]])
-ZygorGuidesViewer:RegisterGuide("Corey's Achievement Guides\\Explore Kalimdor\\Explore STM",[[
+ZygorGuidesViewer:RegisterGuide("Corey's Achievement Guides\\Explore Kalimdor\\Explore Stonetalon Mtns",[[
 author ErebusAres
 next Corey's Achievement Guides\\Explore Kalimdor\\Explore X
     step
