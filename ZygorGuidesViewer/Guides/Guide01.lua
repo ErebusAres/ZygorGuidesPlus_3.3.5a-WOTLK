@@ -276,7 +276,7 @@ next Corey's Achievement Guides\\Explore Kalimdor\\Explore The Barrens
     step //2
         .'Travel East to Azshara|goto Azshara|noway|c
     step //3
-        goto Southfury River,11.9,77.6
+        goto Azshara,11.9,77.6
         .talk Jarrodenus##12577
         ..fpath Talrendis Point
     step //4
@@ -388,7 +388,7 @@ next Corey's Achievement Guides\\Explore Kalimdor\\Explore Durotar
 ]]) 
 ZygorGuidesViewer:RegisterGuide("Corey's Achievement Guides\\Explore Kalimdor\\Explore Durotar",[[
 author ErebusAres
-next Corey's Achievement Guides\\Explore Kalimdor\\Explore Stonetalon Mountains
+next Corey's Achievement Guides\\Explore Kalimdor\\Explore STM
     step
         .'Travel to Durotar|goto Durotar|noway|c
     step
@@ -420,9 +420,9 @@ next Corey's Achievement Guides\\Explore Kalimdor\\Explore Stonetalon Mountains
     step
         .'Unlock Orgrimmar |achieve 728/11|tip Quickly run in and leave when you get the achievement.
 ]])
-ZygorGuidesViewer:RegisterGuide("Corey's Achievement Guides\\Explore Kalimdor\\Explore Stonetalon Mountains",[[
+ZygorGuidesViewer:RegisterGuide("Corey's Achievement Guides\\Explore Kalimdor\\Explore STM",[[
 author ErebusAres
-next Corey's Achievement Guides\\Explore Kalimdor\\Explore Stonetalon Mountains
+next Corey's Achievement Guides\\Explore Kalimdor\\Explore X
     step
         .'Travel to Stonetalon Mountains|goto Stonetalon Mountains|noway|c
     step
