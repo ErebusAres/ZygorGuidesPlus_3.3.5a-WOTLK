@@ -388,7 +388,7 @@ next Corey's Achievement Guides\\Explore Kalimdor\\Explore Durotar
 ]]) 
 ZygorGuidesViewer:RegisterGuide("Corey's Achievement Guides\\Explore Kalimdor\\Explore Durotar",[[
 author ErebusAres
-next Corey's Achievement Guides\\Explore Kalimdor\\Explore Stonetalon Mtns
+next Corey's Achievement Guides\\Explore Kalimdor\\Explore Dustwallow Marsh
     step
         .'Travel to Durotar|goto Durotar|noway|c
     step
@@ -420,28 +420,395 @@ next Corey's Achievement Guides\\Explore Kalimdor\\Explore Stonetalon Mtns
     step
         .'Unlock Orgrimmar |achieve 728/11|tip Quickly run in and leave when you get the achievement.
 ]])
-ZygorGuidesViewer:RegisterGuide("Corey's Achievement Guides\\Explore Kalimdor\\Explore Stonetalon Mtns",[[
+ZygorGuidesViewer:RegisterGuide("Corey's Achievement Guides\\Explore Kalimdor\\Explore Dustwallow Marsh",[[
 author ErebusAres
-next Corey's Achievement Guides\\Explore Kalimdor\\Explore X
-    step
-        .'Travel to Stonetalon Mountains|goto Stonetalon Mountains|noway|c
-    step
-        .' Unlock Camp Aparaje |achieve 847/1 |goto Stonetalon Mountains,76,92
-        .' Unlock Grimtotem Post |achieve 847/2 |goto Stonetalon Mountains,75,86
-        .' Unlock Malaka'jin |achieve 847/3 |goto Stonetalon Mountains,72,93
-        .' Unlock Webwinder Path |achieve 847/4 |goto Stonetalon Mountains,57,66
-        .' Unlock Boulderslide Ravine |achieve 847/5 |goto Stonetalon Mountains,65,91
-        .' Unlock Sishir Canyon |achieve 847/6 |goto Stonetalon Mountains,54,75
-        .' Unlock Windshear Crag |achieve 847/7 |goto Stonetalon Mountains,68,48
-        .' Unlock Sun Rock Retreat |achieve 847/8 |goto Stonetalon Mountains,49,60
-        .' Unlock The Charred Vale |achieve 847/9 |goto Stonetalon Mountains,32,65
-        .' Unlock Mirkfallon Lake |achieve 847/10 |goto Stonetalon Mountains,48,40
-        .' Unlock Stonetalon Peak |achieve 847/11 |goto Stonetalon Mountains,36,12
+next Corey's Achievement Guides\\Explore Kalimdor\\Explore Mulgore
+    step //1
+        .'Travel to Dustwallow Marsh|goto Dustwallow Marsh|noway|c
+    step //2
+        .'Unlock The Quagmire|achieve 850/4|goto Dustwallow Marsh,41,51
+    step //3
+        .'Unlock The Den of Flame|achieve 850/5|goto Dustwallow Marsh,38,65
+    step //4
+        goto Dustwallow Marsh,42.8,72.4
+        .talk Dyslix Silvergrub##23612
+        ..fpath Mudsprocket
+    step //5
+        .'Unlock Wyrmbog|achieve 850/6|goto Dustwallow Marsh,52,73
+    step //6
+        .'Unlock Brackenwall Village|achieve 850/3|goto Dustwallow Marsh,35,30|tip You can return to the road, or go straight north through the marsh.
+    step //7
+        .'Unlock Witch Hill|achieve 850/2|goto Dustwallow Marsh,52,27
+    step //8
+        .'Unlock Alcaz Island|achieve 850/7|goto Dustwallow Marsh,72,19|tip You can get this Region by swimming nearly the entire way to the island.
+    step //9
+        .'Unlock Theramore Isle|achieve 850/1|goto Dustwallow Marsh,66,47|tip Return West to the beach and follow it around to the bridge into Theramore Isle.
+    step //10
+        goto Dustwallow Marsh,67.5,51.3
+        .talk Baldruc##4321
+        ..fpath Theramore Isle
 ]])
---TRIAL ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Main Guide (13-20)",[[
---TRIAL 	author support@zygorguides.com
---TRIAL 	step //1
---TRIAL 		' Thank you for trying the Zygor Guides Version 2.0 Leveling Guides Demo.  Please visit ZygorGuides.com to purchase the complete in-game Version 2.0 leveling guides.  Take care
---TRIAL 		level 13
---TRIAL ]])
+ZygorGuidesViewer:RegisterGuide("Corey's Achievement Guides\\Explore Kalimdor\\Explore Mulgore",[[
+author ErebusAres
+next Corey's Achievement Guides\\Explore Kalimdor\\Explore Stonetalon Mtns
+    step //1
+        .'Travel to Mulgore|goto Mulgore|noway|c|or
+        .'Fly to Ratchet, and head Southwest to Mulgore|goto The Barrens|noway|c|or
+    step //2
+        .'Arrive in Mulgore|goto Mulgore|noway|c
+    step //3
+        .'Unlock The Rolling Plains|achieve 736/5|goto Mulgore,61,67
+    step //4
+        .'Unlock Winterhoof Water Well|achieve 736/4|goto Mulgore,53,66
+    step //5
+        .'Unlock Bloodhoof Village|achieve 736/3|goto Mulgore,49,58
+    step //6
+        .'Unlock Red Cloud Mesa|achieve 736/1|goto Mulgore,39,82|tip You can get this Region by running up the hill in some places. Otherwise, you can run around to the Entrance.
+    step //7
+        .'Unlock Palemane Rock|achieve 736/2|goto Mulgore,34,62
+    step //8
+        .'Unlock Bael'Dun Digsite|achieve 736/10|goto Mulgore,32,48
+    step //9
+        .'Unlock Thunderhorn Water Well|achieve 736/9|goto Mulgore,44,45
+    step //10
+        .'Unlock Thunder Bluff|achieve 736/14|goto Mulgore,36,29|tip Head North to the city. Follow the path up the hill it should unlock before you reach the Elevators.
+    step //11
+        .'Unlock Wildmane Water Well|achieve 736/13|goto Mulgore,42,14|tip Keep to the west of Thunder Bluff and follow around to the North.
+    step //12
+        .'Unlock Windfury Ridge|achieve 736/12|goto Mulgore,52,11
+    step //13
+        .'Unlock Red Rocks|achieve 736/11|goto Mulgore,60,21
+    step //14
+        .'Unlock The Golden Plains|achieve 736/8|goto Mulgore,49,35
+    step //15
+        .'Unlock Ravaged Caravan|achieve 736/7|goto Mulgore,53,47
+    step //16
+        .'Unlock The Venture Co. Mine|achieve 736/6|goto Mulgore,62,48
+]])
+ZygorGuidesViewer:RegisterGuide("Corey's Achievement Guides\\Explore Kalimdor\\Explore Stonetalon Mtns",[[ 
+author ErebusAres 
+next Corey's Achievement Guides\\Explore Kalimdor\\Explore Desolace
+    step //1
+        .'Travel to Stonetalon Mountains|goto Stonetalon Mountains|noway|c 
+    step //2
+        .'Unlock Camp Aparaje |achieve 847/1 |goto Stonetalon Mountains,76,92|tip Stick to the roads and deviate when necessary.
+    step //3
+        .'Unlock Malaka'jin |achieve 847/3 |goto Stonetalon Mountains,72,93
+    step //4
+        .'Unlock Grimtotem Post |achieve 847/2 |goto Stonetalon Mountains,75,86 
+    step //5
+        .'Unlock Boulderslide Ravine |achieve 847/5 |goto Stonetalon Mountains,65,91
+    step //6
+        .'Unlock Sishir Canyon |achieve 847/6 |goto Stonetalon Mountains,54,75 
+    step //7
+        .'Unlock Windshear Crag |achieve 847/7 |goto Stonetalon Mountains,68,48 
+    step //8
+        .'Unlock Webwinder Path |achieve 847/4 |goto Stonetalon Mountains,57,66 
+    step //9
+        .'Unlock Sun Rock Retreat |achieve 847/8 |goto Stonetalon Mountains,49,60 
+    step //10
+        .'Unlock Mirkfallon Lake |achieve 847/10 |goto Stonetalon Mountains,48,40 
+    step //11
+        .'Unlock Stonetalon Peak |achieve 847/11 |goto Stonetalon Mountains,36,12 
+    step //12
+        goto Stonetalon Mountains,36.4,7.2
+        .talk Teloren##4407
+        ..fpath Stonetalon Peak
+    step //13
+        .'Unlock The Charred Vale |achieve 847/9 |goto Stonetalon Mountains,32,65 
+]])
+ZygorGuidesViewer:RegisterGuide("Corey's Achievement Guides\\Explore Kalimdor\\Explore Desolace",[[
+author ErebusAres
+next Corey's Achievement Guides\\Explore Kalimdor\\Explore Feralas
+    step //1
+        .'Travel to Desolace|goto Desolace|noway|c
+    step //2
+        .'Unlock Tethris Aran|achieve 848/1|goto Desolace,54,13
+    step //3
+        .'Unlock Nijel's Point|achieve 848/2|goto Desolace,65,9
+    step //4
+        goto Desolace,64.7,10.5
+        .talk Baritanas Skyriver##11138
+        ..fpath Nijel's Point
+    step //5
+        .'Unlock Sargeron|achieve 848/3|goto Desolace,76,21
+    step //6
+        .'Unlock Thunder Axe Fortress|achieve 848/4|goto Desolace,55,28
+    step //7
+        .'Unlock Ethel Rethor|achieve 848/7|goto Desolace,38,28
+    step //8
+        .'Unlock Ranazjar Isle|achieve 848/15|goto Desolace,28,9|tip You have to nearly touch the land of this isle to unlock this Region.
+    step //9
+        .'Unlock Kormek's Hut|achieve 848/5|goto Desolace,62,39|tip Swim back to the mainland and head East along the road.
+    step //10
+        .'Unlock Kolkar Village|achieve 848/6|goto Desolace,73,48
+    step //11
+        .'Unlock Magram Village|achieve 848/13|goto Desolace,72,73
+    step //12
+        .'Unlock Shadowbreak Ravine|achieve 848/14|goto Desolace,79,77|tip Come in from the North, follow the "path" South then East into the Region.
+    step //13
+        .'Unlock Mannoroc Coven|achieve 848/12|goto Desolace,52,76
+    step //14
+        .'Unlock Kodo Graveyard|achieve 848/9|goto Desolace,50,57
+    step //15
+        .'Unlock Valley of Spears|achieve 848/8|goto Desolace,33,58|tip Go through the Archway to the West.
+    step //16
+        .'Unlock Shadowprey Village|achieve 848/10|goto Desolace,24,70|tip Follow the "Path" around North, Then South, Past the Meeting Stone.
+        .'Note: This is a Horde Town, so be careful.|tip Hug the coast to avoid the guards.
+    step //17
+        .'Unlock Gelkis Village|achieve 848/11|goto Desolace,34,86
+]])
+ZygorGuidesViewer:RegisterGuide("Corey's Achievement Guides\\Explore Kalimdor\\Explore Feralas",[[
+author ErebusAres
+next Corey's Achievement Guides\\Explore Kalimdor\\Explore Thousand Needles
+    step //1
+        .'Travel to Feralas|goto Feralas|noway|c
+    step //2
+        .'Unlock Ruins of Ravenwind |achieve 849/4 |goto Feralas,40,12
+    step //3
+        .'Unlock Dream Bough|achieve 849/1 |goto Feralas,51,9
+    step //4
+        .'Unlock Oneiros |achieve 849/3 |goto Feralas,54,16
+    step //5
+        .'Unlock The Twin Colossals |achieve 849/5 |goto Feralas,46,18
+    step //6
+        .'Unlock The Forgotten Coast |achieve 849/6 |goto Feralas,45,49|tip Follow the main road to the fork, and head West towards the dock.
+    step //7
+        .'Unlock Isle of Dread |achieve 849/16 |goto Feralas,34,78|tip Wait for the Boat, and sit right on the railing of the Port side of the boat.
+    step //8
+        .'Unlock Sardor Isle |achieve 849/15 |goto Feralas,29,49|tip Wait for the Boat to dock, Stay Mounted.
+    step //9
+        goto Feralas,30.2,43.3
+        .talk Fyldren Moonfeather##8019
+        ..fpath Feathermoon|tip If you're quick enough you can make it back to the boat in time.
+    step //10
+        .'Unlock Feral Scar Vale |achieve 849/8 |goto Feralas,54,56|tip Wait for the boat to dock, then follow the road to the next Region.
+    step //11
+        .'Unlock Frayfeather Highlands |achieve 849/9 |goto Feralas,54,69
+    step //12
+        .'Unlock Ruins of Isildien |achieve 849/10 |goto Feralas,59,69
+    step //13
+        .'Unlock Dire Maul |achieve 849/7 |goto Feralas,59,44
+    step //14
+        .'Unlock The Writhing Deep |achieve 849/11 |goto Feralas,75,61
+    step //15
+        .'Unlock Grimtotem Compound |achieve 849/13 |goto Feralas,69,40
+    step //16
+        .'Unlock Camp Mojache |achieve 849/12 |goto Feralas,75,42
+    step //17
+        .'Unlock Gordunni Outpost |achieve 849/14 |goto Feralas,75.2,34.6
+    step //18
+        .'Unlock Lower Wilds |achieve 849/2 |goto Feralas,84,46|tip Return to the main road, and follow it East.
+    step //19
+        goto Feralas,89.5,45.9
+        .talk Thyssiana##4319
+        ..fpath Thalanaar
+]])
+ZygorGuidesViewer:RegisterGuide("Corey's Achievement Guides\\Explore Kalimdor\\Explore Thousand Needles",[[
+author ErebusAres
+next Corey's Achievement Guides\\Explore Kalimdor\\Explore Tanaris
+    step //1
+        .'Travel to Thousand Needles|goto Thousand Needles|noway|c
+    step //2
+        .'Unlock Highperch |achieve 846/9 |goto Thousand Needles,12,34    
+    step //3
+        .'Unlock Camp E'thok |achieve 846/8 |goto Thousand Needles,18,21
+    step //4
+        .'Unlock The Great Lift |achieve 846/1 |goto Thousand Needles,31,23
+    step //5
+        .'Unlock Darkcloud Pinnacle |achieve 846/2 |goto Thousand Needles,34,38
+    step //6
+        .'Unlock The Screeching Canyon |achieve 846/3 |goto Thousand Needles,37,41
+    step //7
+        .'Unlock Splithoof Crag |achieve 846/5 |goto Thousand Needles,40,37
+    step //8
+        .'Unlock Freewind Post |achieve 846/4 |goto Thousand Needles,45,50
+    step //9
+        .'Unlock Windbreak Canyon |achieve 846/6 |goto Thousand Needles,60,53
+    step //10
+        .'Unlock The Shimmering Flats |achieve 846/7 |goto Thousand Needles,75,68
+]])
+ZygorGuidesViewer:RegisterGuide("Corey's Achievement Guides\\Explore Kalimdor\\Explore Tanaris",[[
+author ErebusAres
+next Corey's Achievement Guides\\Explore Kalimdor\\Explore Un'Goro Crater
+    step //1
+        .'Travel to Tanaris|goto Tanaris|noway|c
+    step //2
+        .'Unlock Gadgetzan |achieve 851/1 |goto Tanaris,50,28
+    step //3
+        goto Tanaris,51,29.3
+        .talk Bera Stonehammer##7823
+        ..fpath Gadgetzan
+    step //4
+        .'Unlock Waterspring Field |achieve 851/7 |goto Tanaris,60,36
+    step //5
+        .'Unlock Noonshade Ruins |achieve 851/3 |goto Tanaris,60,25
+    step //6
+        .'Unlock Steamwheedle Port |achieve 851/4 |goto Tanaris,67,23
+    step //7
+        .'Unlock Zalashji's Den |achieve 851/5 |goto Tanaris,67,32
+    step //8
+        .'Unlock Caverns of Time |achieve 851/20 |goto Tanaris,65,49|tip Enter from the West.
+    step //9
+        .'Unlock Lost Rigger Cove |achieve 851/6 |goto Tanaris,73,46|tip Wrap back around the North side.
+    step //10
+        .'Unlock Southbreak Shore |achieve 851/12 |goto Tanaris,64,60
+    step //11
+        .'Unlock Broken Pillar |achieve 851/9 |goto Tanaris,52,45
+    step //12
+        .'Unlock Abyssal Sands |achieve 851/8 |goto Tanaris,45,41
+    step //13
+        .'Unlock Sandsorrow Watch |achieve 851/2 |goto Tanaris,38,27
+    step //14
+        .'Unlock Zul'Farrak |achieve 851/19 |goto Tanaris,38,16
+    step //15
+        .'Unlock The Noxious Lair |achieve 851/10 |goto Tanaris,36,43
+    step //16
+        .'Unlock Dunemaul Compound |achieve 851/11 |goto Tanaris,40,57
+    step //17
+        .'Unlock Eastmoon Ruins |achieve 851/14 |goto Tanaris,47,65
+    step //18
+        .'Unlock The Gaping Chasm |achieve 851/13 |goto Tanaris,52,67
+    step //19
+        .'Unlock Southmoon Ruins |achieve 851/16 |goto Tanaris,40,72
+    step //20
+        .'Unlock Valley of the Watchers |achieve 851/17 |goto Tanaris,36,77
+    step //21
+        .'Unlock Land's End Beach |achieve 851/15 |goto Tanaris,54,92|tip Enter the Entrance to the South, and follow the cavern to the East.
+    step //22
+        .'Unlock Thistleshrub Valley |achieve 851/18 |goto Tanaris,29,64|tip Return through the cavern and head West to this Region. This should drop you out in front of the entrance to Un'Goro Crater.
+]])
+ZygorGuidesViewer:RegisterGuide("Corey's Achievement Guides\\Explore Kalimdor\\Explore Un'Goro Crater",[[
+author ErebusAres
+next Corey's Achievement Guides\\Explore Kalimdor\\Explore Silithus
+    step //1
+        .'Travel to Un'Goro Crater|goto Un'Goro Crater|noway|c
+    step //2
+        .'Unlock The Marshlands |achieve 854/5 |goto Un'Goro Crater,68,64
+    step //3
+        .'Unlock The Slithering Scar |achieve 854/4 |goto Un'Goro Crater,50,79
+    step //4
+        .'Unlock Terror Run |achieve 854/3 |goto Un'Goro Crater,32,67
+    step //5
+        .'Unlock Golakka Hot Springs |achieve 854/2 |goto Un'Goro Crater,31,50
+    step //6
+        .'Unlock Fire Plume Ridge |achieve 854/1 |goto Un'Goro Crater,51,47
+    step //7
+        .'Unlock Ironstone Plateau |achieve 854/6 |goto Un'Goro Crater,76.7,33.2
+    step //8
+        .'Unlock Lakkari Tar Pits |achieve 854/7 |goto Un'Goro Crater,50,21
+    step //9
+        goto Un'Goro Crater,45.2,5.8
+        .talk Gryfe##10583
+        ..fpath Marshal's Refuge
+]])
+ZygorGuidesViewer:RegisterGuide("Corey's Achievement Guides\\Explore Kalimdor\\Explore Silithus",[[
+author ErebusAres
+next Corey's Achievement Guides\\Explore Kalimdor\\Explore Azuremyst Isle
+    step //1
+        .'Travel to Silithus|goto Silithus|noway|c
+    step //2
+        .'Unlock Valor's Rest |achieve 856/2 |goto Silithus,81,18
+    step //3
+        .'Unlock Staghelm Point |achieve 856/7 |goto Silithus,67,28
+    step //4
+        .'Unlock Cenarion Hold |achieve 856/3 |goto Silithus,53,34
+    step //5
+        goto Silithus,50.6,34.5
+        .talk Cloud Skydancer##15177
+        ..fpath Cenarion Hold
+    step //6
+        .'Unlock The Crystal Vale |achieve 856/1 |goto Silithus,28,14
+    step //7
+        .'Unlock Hive'Zora |achieve 856/4 |goto Silithus,32,52
+    step //8
+        .'Unlock The Scarab Wall |achieve 856/6 |goto Silithus,29,90
+    step //9
+        .'Unlock Hive'Regal |achieve 856/5 |goto Silithus,59,70
+]])
+ZygorGuidesViewer:RegisterGuide("Corey's Achievement Guides\\Explore Kalimdor\\Explore Azuremyst Isle",[[ 
+author ErebusAres 
+next Corey's Achievement Guides\\Explore Kalimdor\\Explore Bloodmyst Isle
+    step //1
+        .'Travel to Azuremyst Isle|goto Azuremyst Isle|noway|c
+    step //2
+        .'Unlock Ammen Vale |achieve 860/1 |goto Azuremyst Isle,77,43
+        .'Unlock Ammen Ford |achieve 860/2 |goto Azuremyst Isle,62,54
+        .'Unlock Azure Watch |achieve 860/3 |goto Azuremyst Isle,49,50
+        .'Unlock Bristlelimb Village |achieve 860/4 |goto Azuremyst Isle,26,66
+        .'Unlock Emberglade |achieve 860/5 |goto Azuremyst Isle,58,17
+        .'Unlock Fairbridge Strand |achieve 860/6 |goto Azuremyst Isle,47,5
+        .'Unlock Geezle's Camp |achieve 860/7 |goto Azuremyst Isle,59,68
+        .'Unlock Moongraze Woods |achieve 860/8 |goto Azuremyst Isle,52,42
+        .'Unlock Odesyus' Landing |achieve 860/9 |goto Azuremyst Isle,46,71
+        .'Unlock Pod Cluster |achieve 860/10 |goto Azuremyst Isle,37,59
+        .'Unlock Pod Wreckage |achieve 860/11 |goto Azuremyst Isle,53,61
+        .'Unlock Silting Shore |achieve 860/12 |goto Azuremyst Isle,34,12
+        .'Unlock Silvermyst Isle |achieve 860/13 |goto Azuremyst Isle,13,80
+        .'Unlock Stillpine Hold |achieve 860/14 |goto Azuremyst Isle,45,20
+        .'Unlock The Exodar |achieve 860/15 |goto Azuremyst Isle,31,40
+        .'Unlock Valaar's Berth |achieve 860/16 |goto Azuremyst Isle,21,54
+        .'Unlock Wrathscale Point |achieve 860/17 |goto Azuremyst Isle,32,77
+]]) 
+ZygorGuidesViewer:RegisterGuide("Corey's Achievement Guides\\Explore Kalimdor\\Explore Bloodmyst Isle",[[
+author ErebusAres
+    step //1
+        .'Travel to Bloodmyst Isle|goto Bloodmyst Isle|noway|c
+    step //2
+        .'Unlock Amberweb Pass |achieve 861/1 |goto Bloodmyst Isle,17.5,28.8
+    step //3
+        .'Unlock Axxarien |achieve 861/2 |goto Bloodmyst Isle,51.3,32.4
+    step //4
+        .'Unlock Blacksilt Shore |achieve 861/3 |goto Bloodmyst Isle,31.8,87.0
+    step //5
+        .'Unlock Bladewood |achieve 861/4 |goto Bloodmyst Isle,46.4,45.6
+    step //6
+        .'Unlock Bloodcurse Isle |achieve 861/5 |goto Bloodmyst Isle,85.0,51.0
+    step //7
+        .'Unlock Blood Watch |achieve 861/6 |goto Bloodmyst Isle,54.6,55.3
+    step //8
+        .'Unlock Bristlelimb Enclave |achieve 861/7 |goto Bloodmyst Isle,66.1,78.8
+    step //9
+        .'Unlock Kessel's Crossing |achieve 861/8 |goto Bloodmyst Isle,62.1,89.0
+    step //10
+        .'Unlock Middenvale |achieve 861/9 |goto Bloodmyst Isle,51.9,76.0
+    step //11
+        .'Unlock Mystwood |achieve 861/10 |goto Bloodmyst Isle,42.5,84.1
+    step //12
+        .'Unlock Nazzivian |achieve 861/11 |goto Bloodmyst Isle,38.6,79.0
+    step //13
+        .'Unlock Ragefeather Ridge |achieve 861/12 |goto Bloodmyst Isle,55.3,35.4
+    step //14
+        .'Unlock Ruins of Loreth'Aran |achieve 861/13 |goto Bloodmyst Isle,61.7,44.6
+    step //15
+        .'Unlock Talon Stand |achieve 861/14 |goto Bloodmyst Isle,73.1,20.9
+    step //16
+        .'Unlock Tel'athion's Camp |achieve 861/15 |goto Bloodmyst Isle,25.1,42.6
+    step //17
+        .'Unlock The Bloodcursed Reef |achieve 861/16 |goto Bloodmyst Isle,80.5,26.4
+    step //18
+        .'Unlock The Bloodwash |achieve 861/17 |goto Bloodmyst Isle,38.9,20.9
+    step //19
+        .'Unlock The Crimson Reach |achieve 861/18 |goto Bloodmyst Isle,66.0,49.5
+    step //20
+        .'Unlock The Cryo-Core |achieve 861/19 |goto Bloodmyst Isle,39.1,61.4
+    step //21
+        .'Unlock The Foul Pool |achieve 861/20 |goto Bloodmyst Isle,29.4,36.7
+    step //22
+        .'Unlock The Hidden Reef |achieve 861/21 |goto Bloodmyst Isle,34.1,23.0
+    step //23
+        .'Unlock The Lost Fold |achieve 861/22 |goto Bloodmyst Isle,57.8,81.6
+    step //24
+        .'Unlock The Vector Coil |achieve 861/23 |goto Bloodmyst Isle,18.2,51.5
+    step //25
+        .'Unlock The Warp Piston |achieve 861/24 |goto Bloodmyst Isle,53.2,16.0
+    step //26
+        .'Unlock Veridian Point |achieve 861/25 |goto Bloodmyst Isle,74.5,9.2
+    step //27
+        .'Unlock Vindicator's Rest |achieve 861/26 |goto Bloodmyst Isle,30.2,45.9
+    step //28
+        .'Unlock Wrathscale Lair |achieve 861/27 |goto Bloodmyst Isle,69.0,67.6
+    step //29
+        .'Unlock Wyrmscar Island |achieve 861/28 |goto Bloodmyst Isle,71.4,16.3
+]])
 ZygorGuidesViewer.AllianceInstalled=true --!TRIAL
