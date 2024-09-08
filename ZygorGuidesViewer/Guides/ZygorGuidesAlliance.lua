@@ -13813,7 +13813,7 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Levels (64-66
 		goto 39,39.7
 		.talk Shadowy Initiate##18716|goal Shadowy Initiate Spoken To|q 10040/1
 	step //120
-		goto 38.4,39.3
+		goto 38.3,40.6
 		.talk Shadowy Laborer##18717|goal Shadowy Laborer Spoken To|q 10040/2
 	step //121
 		goto 40.5,36.2
