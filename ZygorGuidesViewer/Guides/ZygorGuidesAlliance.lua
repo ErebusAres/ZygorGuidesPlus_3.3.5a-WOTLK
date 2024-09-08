@@ -13600,7 +13600,7 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Levels (64-66
 		goto 32.3,41.7
 		.kill arakkoas|n
 		.get 5 Lathrai's Stolen Goods|q 10112/1
-		.get Veil Skith Prison Keys|n
+		.collect 1 Veil Skith Prison Keys##31655|q 10852/1 |tip You'll need up to 8 keys.
 		.' Click the yellow cages around this area
 		.' Rescue 12 Children|goal 12 Children Rescued|q 10852/1
 	step //71
