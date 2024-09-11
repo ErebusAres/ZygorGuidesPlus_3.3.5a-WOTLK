@@ -730,85 +730,114 @@ ZygorGuidesViewer:RegisterGuide("Corey's Achievement Guides\\Explore Kalimdor\\E
 author ErebusAres 
 next Corey's Achievement Guides\\Explore Kalimdor\\Explore Bloodmyst Isle
     step //1
-        .'Travel to Azuremyst Isle|goto Azuremyst Isle|noway|c
+        .'Fly to The Exodar|goto The Exodar|noway|c|or
+        .'Boat to Azuremyst Isle|goto Azuremyst Isle|noway|c|tip The boat at the very end of the pier in Darkshore arrives here.|or
     step //2
-        .'Unlock Ammen Vale |achieve 860/1 |goto Azuremyst Isle,77,43
-        .'Unlock Ammen Ford |achieve 860/2 |goto Azuremyst Isle,62,54
-        .'Unlock Azure Watch |achieve 860/3 |goto Azuremyst Isle,49,50
-        .'Unlock Bristlelimb Village |achieve 860/4 |goto Azuremyst Isle,26,66
-        .'Unlock Emberglade |achieve 860/5 |goto Azuremyst Isle,58,17
-        .'Unlock Fairbridge Strand |achieve 860/6 |goto Azuremyst Isle,47,5
-        .'Unlock Geezle's Camp |achieve 860/7 |goto Azuremyst Isle,59,68
-        .'Unlock Moongraze Woods |achieve 860/8 |goto Azuremyst Isle,52,42
-        .'Unlock Odesyus' Landing |achieve 860/9 |goto Azuremyst Isle,46,71
-        .'Unlock Pod Cluster |achieve 860/10 |goto Azuremyst Isle,37,59
-        .'Unlock Pod Wreckage |achieve 860/11 |goto Azuremyst Isle,53,61
-        .'Unlock Silting Shore |achieve 860/12 |goto Azuremyst Isle,34,12
-        .'Unlock Silvermyst Isle |achieve 860/13 |goto Azuremyst Isle,13,80
-        .'Unlock Stillpine Hold |achieve 860/14 |goto Azuremyst Isle,45,20
         .'Unlock The Exodar |achieve 860/15 |goto Azuremyst Isle,31,40
+    step //3
+        goto The Exodar,68.5,63.7
+        .talk Stephanos##17555
+        ..fpath The Exodar
+    step //3
         .'Unlock Valaar's Berth |achieve 860/16 |goto Azuremyst Isle,21,54
+    step //4
+        .'Unlock Bristlelimb Village |achieve 860/4 |goto Azuremyst Isle,26,66
+    step //5
+        .'Unlock Silvermyst Isle |achieve 860/13 |goto Azuremyst Isle,13,80
+    step //6
         .'Unlock Wrathscale Point |achieve 860/17 |goto Azuremyst Isle,32,77
+    step //7
+        .'Unlock Pod Cluster |achieve 860/10 |goto Azuremyst Isle,37,59
+    step //8
+        .'Unlock Odesyus' Landing |achieve 860/9 |goto Azuremyst Isle,46,71
+    step //9
+        .'Unlock Pod Wreckage |achieve 860/11 |goto Azuremyst Isle,53,61
+    step //10
+        .'Unlock Geezle's Camp |achieve 860/7 |goto Azuremyst Isle,59,68
+    step //11
+        .'Unlock Ammen Ford |achieve 860/2 |goto Azuremyst Isle,62,54
+    step //12
+        .'Unlock Ammen Vale |achieve 860/1 |goto Azuremyst Isle,77,43
+    step //13
+        .'Return to Ammen Ford|goto Azuremyst Isle,62,54
+    step //14
+        .'Unlock Azure Watch |achieve 860/3 |goto Azuremyst Isle,49,50
+    step //15
+        .'Unlock Moongraze Woods |achieve 860/8 |goto Azuremyst Isle,52,42
+    step //16
+        .'Unlock Stillpine Hold |achieve 860/14 |goto Azuremyst Isle,45,20
+    step //17
+        .'Unlock Emberglade |achieve 860/5 |goto Azuremyst Isle,58,17
+    step //18
+        .'Unlock Fairbridge Strand |achieve 860/6 |goto Azuremyst Isle,47,5
+    step //19
+        .'Unlock Silting Shore |achieve 860/12 |goto Azuremyst Isle,34,12
 ]]) 
 ZygorGuidesViewer:RegisterGuide("Corey's Achievement Guides\\Explore Kalimdor\\Explore Bloodmyst Isle",[[
 author ErebusAres
     step //1
-        .'Travel to Bloodmyst Isle|goto Bloodmyst Isle|noway|c
+        .'Travel North, over the bridge, to Bloodmyst Isle|goto Bloodmyst Isle|noway|c
     step //2
-        .'Unlock Amberweb Pass |achieve 861/1 |goto Bloodmyst Isle,17.5,28.8
-    step //3
-        .'Unlock Axxarien |achieve 861/2 |goto Bloodmyst Isle,51.3,32.4
-    step //4
-        .'Unlock Blacksilt Shore |achieve 861/3 |goto Bloodmyst Isle,31.8,87.0
-    step //5
-        .'Unlock Bladewood |achieve 861/4 |goto Bloodmyst Isle,46.4,45.6
-    step //6
-        .'Unlock Bloodcurse Isle |achieve 861/5 |goto Bloodmyst Isle,85.0,51.0
-    step //7
-        .'Unlock Blood Watch |achieve 861/6 |goto Bloodmyst Isle,54.6,55.3
-    step //8
-        .'Unlock Bristlelimb Enclave |achieve 861/7 |goto Bloodmyst Isle,66.1,78.8
-    step //9
         .'Unlock Kessel's Crossing |achieve 861/8 |goto Bloodmyst Isle,62.1,89.0
-    step //10
-        .'Unlock Middenvale |achieve 861/9 |goto Bloodmyst Isle,51.9,76.0
-    step //11
-        .'Unlock Mystwood |achieve 861/10 |goto Bloodmyst Isle,42.5,84.1
-    step //12
-        .'Unlock Nazzivian |achieve 861/11 |goto Bloodmyst Isle,38.6,79.0
-    step //13
-        .'Unlock Ragefeather Ridge |achieve 861/12 |goto Bloodmyst Isle,55.3,35.4
-    step //14
-        .'Unlock Ruins of Loreth'Aran |achieve 861/13 |goto Bloodmyst Isle,61.7,44.6
-    step //15
-        .'Unlock Talon Stand |achieve 861/14 |goto Bloodmyst Isle,73.1,20.9
-    step //16
-        .'Unlock Tel'athion's Camp |achieve 861/15 |goto Bloodmyst Isle,25.1,42.6
-    step //17
-        .'Unlock The Bloodcursed Reef |achieve 861/16 |goto Bloodmyst Isle,80.5,26.4
-    step //18
-        .'Unlock The Bloodwash |achieve 861/17 |goto Bloodmyst Isle,38.9,20.9
-    step //19
-        .'Unlock The Crimson Reach |achieve 861/18 |goto Bloodmyst Isle,66.0,49.5
-    step //20
-        .'Unlock The Cryo-Core |achieve 861/19 |goto Bloodmyst Isle,39.1,61.4
-    step //21
-        .'Unlock The Foul Pool |achieve 861/20 |goto Bloodmyst Isle,29.4,36.7
-    step //22
-        .'Unlock The Hidden Reef |achieve 861/21 |goto Bloodmyst Isle,34.1,23.0
-    step //23
+    step //3
         .'Unlock The Lost Fold |achieve 861/22 |goto Bloodmyst Isle,57.8,81.6
-    step //24
-        .'Unlock The Vector Coil |achieve 861/23 |goto Bloodmyst Isle,18.2,51.5
-    step //25
-        .'Unlock The Warp Piston |achieve 861/24 |goto Bloodmyst Isle,53.2,16.0
-    step //26
-        .'Unlock Veridian Point |achieve 861/25 |goto Bloodmyst Isle,74.5,9.2
-    step //27
-        .'Unlock Vindicator's Rest |achieve 861/26 |goto Bloodmyst Isle,30.2,45.9
-    step //28
+    step //4
+        .'Unlock Bristlelimb Enclave |achieve 861/7 |goto Bloodmyst Isle,66.1,78.8
+    step //5
         .'Unlock Wrathscale Lair |achieve 861/27 |goto Bloodmyst Isle,69.0,67.6
+    step //6
+        .'Unlock Middenvale |achieve 861/9 |goto Bloodmyst Isle,51.9,76.0
+    step //7
+        .'Unlock Mystwood |achieve 861/10 |goto Bloodmyst Isle,42.5,84.1
+    step //8
+        .'Unlock Nazzivian |achieve 861/11 |goto Bloodmyst Isle,38.6,79.0
+    step //9
+        .'Unlock Blacksilt Shore |achieve 861/3 |goto Bloodmyst Isle,31.8,87.0
+    step //10
+        .'Unlock The Cryo-Core |achieve 861/19 |goto Bloodmyst Isle,39.1,61.4
+    step //11
+        .'Unlock Vindicator's Rest |achieve 861/26 |goto Bloodmyst Isle,30.2,45.9
+    step //12
+        .'Unlock The Vector Coil |achieve 861/23 |goto Bloodmyst Isle,18.2,51.5
+    step //13
+        .'Unlock Tel'athion's Camp |achieve 861/15 |goto Bloodmyst Isle,25.1,42.6
+    step //14
+        .'Unlock Amberweb Pass |achieve 861/1 |goto Bloodmyst Isle,17.5,28.8
+    step //15
+        .'Unlock The Foul Pool |achieve 861/20 |goto Bloodmyst Isle,29.4,36.7
+    step //16
+        .'Unlock The Hidden Reef |achieve 861/21 |goto Bloodmyst Isle,34.1,23.0
+    step //17
+        .'Unlock The Bloodwash |achieve 861/17 |goto Bloodmyst Isle,38.9,20.9
+    step //18
+        .'Unlock The Warp Piston |achieve 861/24 |goto Bloodmyst Isle,53.2,16.0
+    step //19
+        .'Unlock Axxarien |achieve 861/2 |goto Bloodmyst Isle,51.3,32.4
+    step //20
+        .'Unlock Ragefeather Ridge |achieve 861/12 |goto Bloodmyst Isle,55.3,35.4
+    step //21
+        .'Unlock Bladewood |achieve 861/4 |goto Bloodmyst Isle,46.4,45.6
+    step //22
+        .'Unlock Blood Watch |achieve 861/6 |goto Bloodmyst Isle,54.6,55.3
+    step //23
+        goto Bloodmyst Isle,57.7,53.9
+        .talk Laando##17554
+        ..fpath Blood Watch
+    step //24
+        .'Unlock Ruins of Loreth'Aran |achieve 861/13 |goto Bloodmyst Isle,61.7,44.6
+    step //25
+        .'Unlock The Crimson Reach |achieve 861/18 |goto Bloodmyst Isle,66.0,49.5
+    step //26
+        .'Unlock Bloodcurse Isle |achieve 861/5 |goto Bloodmyst Isle,85.0,51.0
+    step //27
+        .'Unlock The Bloodcursed Reef |achieve 861/16 |goto Bloodmyst Isle,80.5,26.4
+    step //28
+        .'Start up the Mountain to Talon Stand|goto Bloodmyst Isle,72.6,25.0
     step //29
+        .'Unlock Talon Stand |achieve 861/14 |goto Bloodmyst Isle,73.1,20.9
+    step //30
         .'Unlock Wyrmscar Island |achieve 861/28 |goto Bloodmyst Isle,71.4,16.3
+    step //31
+        .'Unlock Veridian Point |achieve 861/25 |goto Bloodmyst Isle,74.5,9.2
 ]])
 ZygorGuidesViewer.AllianceInstalled=true --!TRIAL
